@@ -1,0 +1,1337 @@
+@import "mixns";
+@import "variable";
+@import "animation.css";
+body{ width:100%; height:100%; position:absolute;background:@mBgColor }
+
+//±³¾°ÐÇ²¿·Ö
+#main .starry div{
+  width:2px;
+  height:2px;
+  background: #FFF;}
+#main .starry{
+  :nth-child(1){.starryMixn(5%,5%);}
+  :nth-child(2){.starryMixn(20%,10%);}
+  :nth-child(3){.starryMixn(53%,30%);}
+  :nth-child(4){.starryMixn(80%,90%);}
+  :nth-child(5){.starryMixn(45%,45%);}
+  :nth-child(6){.starryMixn(21%,75%);}
+  :nth-child(7){.starryMixn(35%,65%);}
+  :nth-child(8){.starryMixn(52%,75%);}
+  :nth-child(9){.starryMixn(88%,25%);}
+  :nth-child(10){.starryMixn(35%,55%);}
+  :nth-child(11){.starryMixn(18%,72%);}
+  :nth-child(12){.starryMixn(92%,25%);}
+  :nth-child(13){.starryMixn(61%,33%);}
+  :nth-child(14){.starryMixn(12%,47%);}
+  :nth-child(15){.starryMixn(62%,63%);}
+  :nth-child(16){.starryMixn(42%,82%);}
+  :nth-child(17){.starryMixn(83%,19%);}
+  :nth-child(18){.starryMixn(33%,35%);}
+  :nth-child(19){.starryMixn(30%,03%);}
+  :nth-child(20){.starryMixn(64%,10%);}
+  :nth-child(21){.starryMixn(36%,26%);}
+  :nth-child(22){.starryMixn(25%,40%);}
+  :nth-child(23){.starryMixn(18%,28%);}
+  :nth-child(24){.starryMixn(44%,30%);}
+  :nth-child(25){.starryMixn(34%,20%);}
+  :nth-child(26){.starryMixn(88%,53%);}
+  :nth-child(27){.starryMixn(81%,37%);}
+  :nth-child(28){.starryMixn(76%,75%);}
+  :nth-child(29){.starryMixn(64%,49%);}
+  :nth-child(30){.starryMixn(74%,51%);}
+}
+
+//Ê®¶þÐÇ×ù-²¿·Ö
+
+//ÐÇ×ù»ù´¡ÐÇ
+#main .SVG   .SVGList{
+  :nth-child(1){
+    .starryMixn(400,200);
+  }
+  :nth-child(2){
+    .starryMixn(490,203);
+  }
+  :nth-child(3){
+    .starryMixn(470,403);
+  }
+  :nth-child(4){
+    .starryMixn(370,423);
+  }
+  :nth-child(5){
+    .starryMixn(372,123);
+  }
+  :nth-child(6){
+    .starryMixn(172,323);
+  }
+  :nth-child(7){
+    .starryMixn(122,123);
+  }
+  :nth-child(8){
+    .starryMixn(192,23);
+  }
+  :nth-child(9){
+    .starryMixn(222,193);
+  }
+  :nth-child(10){
+    .starryMixn(322,123);
+  }
+  :nth-child(11){
+    .starryMixn(422,23);
+  }
+  :nth-child(12){
+    .starryMixn(222,423);
+  }
+  :nth-child(13){
+    .starryMixn(22,123);
+  }
+  :nth-child(14){
+    .starryMixn(22,123);
+  }
+  :nth-child(15){
+    .starryMixn(242,60);
+  }
+  :nth-child(16){
+    .starryMixn(122,123);
+  }
+  :nth-child(17){
+    .starryMixn(0,5);
+  }
+  :nth-child(18){
+    .starryMixn(376,24);
+  }
+  :nth-child(19){
+    .starryMixn(42,234);
+  }
+  :nth-child(20){
+    .starryMixn(92,73);
+  }
+  :nth-child(21){
+    .starryMixn(8,273);
+  }
+  :nth-child(22){
+    .starryMixn(18,333);
+  }
+  :nth-child(23){
+    .starryMixn(338,33);
+  }
+  :nth-child(24){
+    .starryMixn(398,233);
+  }
+  :nth-child(25){
+    .starryMixn(298,433);
+  }
+}
+
+#main .SVG .SVGList{
+  position: relative;
+  width:500px;
+  height:500px;
+  margin:auto;
+
+  .star{
+    width:2px;
+    height: 2px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px  0px 0px #FFF;
+    .transition(1);
+  }
+
+  .starLine{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    background-color: #FFF;
+    visibility: hidden;
+  }
+}
+
+//Ê®¶þÐÇ×ù-»î¶¯Ê±
+#main .SVG .SVGList.active{
+  .star{  z-index: 99;  }
+}
+#main .SVG{
+//°×Ñò×ù
+ .Aries{
+  .starLine1{
+    -webkit-clip-path:polygon( 0px 377px , 379px 188px, 475px 235px, 495px 275px,494px 275px, 474px 236px,379px 189px,0px 378px )  }
+  &.active{
+    :nth-child(1){
+      .starryMixn(0px,375px,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(2){
+      .starryMixn(376px,187px,1);
+      .starSize(6,6);
+      .activeStar;
+    }
+    :nth-child(3){
+      .starryMixn(472px,234px,1);
+      .starSize(5,5);
+      .activeStar;
+    }
+    :nth-child(4){
+      .starryMixn(492px,273px,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    .starLine1{
+      visibility: visible;
+      animation: starLineAries 9s; }
+  }
+}
+
+//½ðÅ£×ù
+ .Taurus{
+  .starLine1{-webkit-clip-path:polygon(61px 49px, 210px 151px, 255px 210px, 276px 236px, 287px 265px, 286px 266px, 275px 237px, 253px 210px, 209px 152px, 60px 50px);}
+  .starLine2{-webkit-clip-path:polygon(8px 162px, 227px 253px, 254px 262px, 288px 267px, 286px 265px, 254px 260px, 229px 252px, 8px 161px)}
+  .starLine3{-webkit-clip-path:polygon(
+          255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px, 284px 266px,
+          287px 266px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px);}
+  .starLine4{-webkit-clip-path:polygon(495px 364px, 348px 413px, 348px 414px, 496px 365px)}
+  .starLine5{-webkit-clip-path:polygon(357px 314px, 216px 311px, 224px 348px, 302px 370px, 302px 369px, 225px 347px, 217px 312px, 359px 315px);}
+  &.active{
+    :nth-child(1){
+      .starryMixn(6,160,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(2){
+      .starryMixn(60,48,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(3){
+      .starryMixn(208,150,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(4){
+      .starryMixn(226,250,1);
+      .starSize(5,5);
+      .activeStar;
+    }
+    :nth-child(5){
+      .starryMixn(252,259,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(6){
+      .starryMixn(254,210,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(7){
+      .starryMixn(266,163,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(8){
+      .starryMixn(274,235,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(9){
+      .starryMixn(285,265,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+    :nth-child(10){
+      .starryMixn(338,167,1);
+      .starSize(1,1);
+      .activeStar(@blur:2);
+    }
+    :nth-child(11){
+      .starryMixn(340,166,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(12){
+      .starryMixn(356,313,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+
+
+    :nth-child(13){
+      .starryMixn(396,134,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(14){
+      .starryMixn(401,133,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(15){
+      .starryMixn(404,135,1);
+      .starSize(1,1);
+      .activeStar(@blur:3);
+    }
+    :nth-child(16){
+      .starryMixn(410,133,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(17){
+      .starryMixn(407,129,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(18){
+      .starryMixn(409,127,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+
+    :nth-child(19){
+      .starryMixn(468,304,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+    :nth-child(20){
+      .starryMixn(485,354,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+
+    :nth-child(21){
+      .starryMixn(494,364,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    :nth-child(22){
+      .starryMixn(347,413,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+    :nth-child(23){
+      .starryMixn(300,368,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+    :nth-child(24){
+      .starryMixn(224,347,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+
+    :nth-child(25){
+      .starryMixn(216,311,1);
+      .starSize(2,2);
+      .activeStar(@blur:3);
+    }
+    .starLine1,.starLine2,.starLine3,.starLine4,.starLine5{visibility: visible;}
+
+    .starLine1{
+      animation: starLineTaurus1 9s;
+    }
+    .starLine2{
+       animation: starLineTaurus2 9s;
+     }
+    .starLine3{
+      animation: starLineTaurus3 9s;/*30*/
+    }
+    .starLine4{
+      animation: starLineTaurus4 9s;/*27*/
+    }
+    .starLine5{
+      animation: starLineTaurus5 9s;/*36*/
+    }
+  }
+}
+
+//Ë«×Ó×ù
+ .Gemini{
+  .starLine1{-webkit-clip-path: polygon(77px 58px, 177px 100px, 298px 209px, 398px 262px, 437px 259px, 488px 240px, 489px 241px, 437px 260px, 397px 263px, 297px 210px, 177px 102px, 77px 60px)}
+  .starLine2{-webkit-clip-path:polygon(21px 135px, 126px 269px, 202px 301px, 331px 391px, 291px 464px, 292px 465px, 333px 390px, 202px 299px, 128px 268px, 22px 133px)}
+  .starLine3{-webkit-clip-path:polygon(177px 102px, 262px 27px, 261px 26px, 176px 101px);}
+  .starLine4{-webkit-clip-path:polygon(125px 267px, 128px 382px, 130px 381px, 127px 267px);}
+  .starLine5{-webkit-clip-path:polygon(77px 57px, 52px 91px, 53px 92px,77px 60px);}
+  .starLine6{-webkit-clip-path:polygon(20px 135px, 52px 91px, 53px 92px, 22px 135px)}
+
+  &.active{
+    :nth-child(3){
+      .starryMixn(18,131,1);
+      .starSize(7,7);
+      .activeStar;
+      .activeStar(@blur: 4,@spread: 2);
+    }
+    :nth-child(5){
+      .starryMixn(75,57,1);
+      .starSize(6,6);
+      .activeStar(@blur: 4,@spread: 2);
+    }
+    :nth-child(7){
+      .starryMixn(125,266,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(9){
+      .starryMixn(176,100,1);
+      .starSize(2,2);
+      .activeStar;
+    }
+    :nth-child(11){
+      .starryMixn(200,299,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(13){
+      .starryMixn(296,208,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(15){
+      .starryMixn(289,462,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(17){
+      .starryMixn(327,388,1);
+      .starSize(6,6);
+      .activeStar;
+    }
+    :nth-child(19){
+      .starryMixn(396,260,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(21){
+      .starryMixn(436,258,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(23){
+      .starryMixn(487,240,1);
+      .starSize(2,2);
+      .activeStar;
+    }
+    :nth-child(2){
+      .starryMixn(258,25,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(4){
+      .starryMixn(127,379,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+
+    :nth-child(14){
+      .starryMixn(299,264,1);
+      .starSize(14,14);
+      .activeStar(@blur: 5);
+    }
+    .starLine1,.starLine2,.starLine3,.starLine4,.starLine5,.starLine6{visibility: visible;}
+    .starLine1{
+      animation:starLineGemini1 9s;
+    }
+    .starLine2{
+      animation: starLineGemini2 9s;
+    }
+    .starLine3{
+      animation: starLineGemini3 9s;
+    }
+    .starLine4{
+      animation: starLineGemini4 9s;
+    }
+    .starLine5{
+      animation: starLineGemini5 9s;
+    }
+    .starLine6{
+      animation: starLineGemini6 9s;
+    }
+  }
+}/*+2*/
+
+//¾ÞÐ·×ù
+ .Cancer{
+  .starLine1{-webkit-clip-path:polygon(231px 18px, 235px 189px, 290px 215px, 293px 271px, 220px 266px, 233px 185px, 234px 190px, 222px 264px, 291px 269px, 288px 216px, 233px 190px, 229px 18px)}
+  .starLine2{-webkit-clip-path:polygon(290px 269px, 367px 485px, 368px 482px, 292px 269px)}
+  .starLine3{-webkit-clip-path:polygon(222px 264px, 133px 404px, 133px 401px, 220px 264px)}
+  &.active{
+    :nth-child(4){
+      .starryMixn(228,17,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(7){
+      .starryMixn(232,187,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(10){
+      .starryMixn(287,214,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(13){
+      .starryMixn(290,269,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(16){
+      .starryMixn(219,263,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(19){
+      .starryMixn(131,400,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(22){
+      .starryMixn(365,480,1);
+      .starSize(5,5);
+      .activeStar(@blur: 4);
+    }
+    .starLine1,.starLine2,.starLine3{ visibility: visible;}
+    .starLine1{
+      animation: starLineCancer1 9s;
+    }
+    .starLine2{
+       animation: starLineCancer2 9s;
+     }
+    .starLine3{
+        animation: starLineCancer3 10s;
+      }
+  }
+}/*+3*/
+
+//Ê¨×Ó×ù
+ .Leo{
+  .starLine1{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 346px 224px, 162px 185px, 18px 247px, 17px 246px, 162px 183px, 347px 222px, 388px 276px, 364px 171px, 449px 140px, 473px 175px)}
+  .starLine2{-webkit-clip-path:polygon(388px 273px, 379px 349px, 145px 256px, 18px 244px, 17px 245px, 145px 258px, 377px 350px, 386px 273px)}
+  .starLine3{-webkit-clip-path:polygon(379px 348px, 279px 374px, 375px 378px, 479px 391px, 476px 389px, 373px 376px, 290px 373px, 380px 349px)}
+  .starLine4{-webkit-clip-path:polygon(148px 258px, 98px 324px, 93px 395px, 92px 394px, 97px 323px, 147px 256px)}
+  &.active{
+    :nth-child(1){
+      .starryMixn(17,242,1);
+      .starSize(5,5);
+      .activeStar;
+    }
+    :nth-child(5){
+      .starryMixn(160,182,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(9){
+      .starryMixn(385,273,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(13){
+      .starryMixn(345,221,1);
+      .starSize(6,6);
+      .activeStar;
+    }
+    :nth-child(17){
+      .starryMixn(362,169,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(21){
+      .starryMixn(449,138,1);
+      .starSize(2,2);
+      .activeStar(@blur: 1);
+    }
+    :nth-child(25){
+      .starryMixn(472,173,1);
+      .starSize(4,4);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(24){
+      .starryMixn(145,256,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(20){
+      .starryMixn(374,345,1);
+      .starSize(7,7);
+      .activeStar;
+    }
+    :nth-child(16){
+      .starryMixn(279,373,1);
+      .starSize(2,2);
+      .activeStar;
+    }
+    :nth-child(12){
+      .starryMixn(373,376,1);
+      .starSize(2,2 );
+      .activeStar(@blur: 1);
+    }
+    :nth-child(8){
+      .starryMixn(476,389,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(4){
+      .starryMixn(96,323,1);
+      .starSize(2,2);
+      .activeStar(@blur: 1);
+    }
+    :nth-child(7){
+      .starryMixn(92,393,1);
+      .starSize(2,2);
+      .activeStar(@blur: 1);
+    }
+    .starLine1, .starLine2,.starLine3,.starLine4{visibility: visible}
+    .starLine1{
+      animation: starLineLeo1 9s;
+    }
+    .starLine2{
+      animation: starLineLeo2 9s;
+    }
+    .starLine3{
+      animation: starLineLeo3 10s;
+    }
+    .starLine4{
+      animation: starLineLeo4 10s;
+    }
+  }
+}/*+4*/
+
+//´¦Å®×ù
+ .Virgo{
+  .starLine1{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 307px 240px, 135px 202px, 23px 164px, 23px 165px, 133px 203px, 308px 241px, 318px 158px, 364px 183px, 451px 231px, 492px 268px) }
+  .starLine2{-webkit-clip-path:polygon(464px 311px, 383px 311px, 327px 301px, 240px 316px, 74px 267px, 8px 242px, 8px 243px, 74px 268px, 240px 317px, 327px 302px, 383px 312px, 464px 312px)}
+  .starLine3{-webkit-clip-path:polygon(328px 301px, 308px 241px, 196px 242px, 196px 241px, 309px 240px, 330px 304px)}
+  .starLine4{-webkit-clip-path:polygon(240px 317px, 68px 313px, 68px 312px, 240px 316px)}
+  .starLine5{-webkit-clip-path:polygon(242px 318px, 188px 363px, 187px 362px, 240px 318px)}
+  &.active{
+    :nth-child(2){
+      .starryMixn(8,242,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(7){
+      .starryMixn(23,164,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(12){
+      .starryMixn(74,267,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(18){
+      .starryMixn(68,312,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(23){
+      .starryMixn(134,202,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(4){
+      .starryMixn(183,360,1);
+      .activeStar();
+      .starSize(5,5);
+    }
+    :nth-child(9){
+      .starryMixn(195,240,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(14){
+      .starryMixn(240,316,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(19){
+      .starryMixn(307,239,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(24){
+      .starryMixn(316,156,1);
+      .activeStar();
+      .starSize(3,3);
+    }
+    :nth-child(6){
+      .starryMixn(327,301,1);
+      .activeStar();
+      .starSize(3,3);
+    }
+    :nth-child(11){
+      .starryMixn(324,314,1);
+      .activeStar(@blur: 5,@spread: 2);
+      .starSize(10,10);
+    }
+    :nth-child(16){
+      .starryMixn(366,183,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(21){
+      .starryMixn(383,311,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(10){
+      .starryMixn(451,230,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(15){
+      .starryMixn(464,311,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+    :nth-child(20){
+      .starryMixn(492,268,1);
+      .activeStar(@blur: 2);
+      .starSize(2,2);
+    }
+
+    .starLine1,.starLine2,.starLine3,.starLine4,.starLine5{visibility:visible;}
+    .starLine1{
+      animation: starLineVirgo1 9s;
+    }
+    .starLine2{
+      animation: starLineVirgo2 9s;
+    }
+    .starLine3{
+       animation: starLineVirgo3 9s;
+     }
+    .starLine4{
+       animation: starLineVirgo4 9s;
+     }
+    .starLine5{
+       animation: starLineVirgo5 9s;
+     }
+
+  }
+}/*+5*/
+
+//Ìì³Ó×ù
+.Libra{
+  .starLine1{  -webkit-clip-path: polygon(285px 122px, 350px 272px, 242px 302px, 242px 301px, 348px 271px, 284px 122px);}
+  .starLine2{  -webkit-clip-path: polygon(285px 122px, 177px 188px, 242px 303px, 243px 303px, 179px 188px, 284px 124px);}
+  .starLine3{  -webkit-clip-path: polygon(348px 273px, 240px 405px, 241px 406px, 351px 272px);}
+  .starLine4{  -webkit-clip-path: polygon(179px 188px, 138px 192px, 92px 197px, 92px 196px, 140px 191px, 178px 187px);}
+  &.active{
+    :nth-child(1){
+      .starryMixn(283,121,1);
+      .starSize();
+      .activeStar(@blur: 5,@spread: 2);
+    }
+    :nth-child(7){
+      .starryMixn(92,196,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(13){
+      .starryMixn(92,196,1);
+      .starSize(2,2);
+       .activeStar(@blur: 2);
+    }
+    :nth-child(19){
+      .starryMixn(138,190,0.6);
+      .starSize(2,2);
+      .activeStar(@blur: 1,@spread: 0);
+    }
+    :nth-child(25){
+      .starryMixn(177,187,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(2){
+      .starryMixn(238,297,0.6);
+      .starSize(2,2);
+      .activeStar(@blur: 1,@spread: 0);
+    }
+    :nth-child(8){
+      .starryMixn(241,301,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(14){
+      .starryMixn(348,271,1);
+      .starSize();
+      .activeStar(@blur: 5,@spread: 2);
+    }
+    :nth-child(20){
+      .starryMixn(239,404,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(3){
+      .starryMixn(304,253,1);
+      .starSize(10,10);
+      .activeStar(@blur: 5,@spread: 2);
+    }
+
+    .starLine1,.starLine2,.starLine3,.starLine4{visibility:visible;}
+    .starLine1{
+      animation: starLineLibra1 9s;
+    }
+    .starLine2{
+      animation: starLineLibra2 9s;
+    }
+    .starLine3{
+      animation: starLineLibra3 9s;
+    }
+    .starLine4{
+      animation: starLineLibra4 9s;
+    }
+  }
+}//+6
+
+//ScorpiusÌìÐ«×ù
+.Scorpius{
+  .starLine1{  -webkit-clip-path: polygon(454px 120px, 453px 166px, 432px 226px, 419px 263px, 418px 261px, 432px 221px, 451px 166px, 452px 120px);}
+  .starLine2{  -webkit-clip-path: polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 61px 295px, 91px 274px, 43px 262px, 42px 261px, 96px 273px, 63px 295px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px);}
+  &.active{
+    :nth-child(7){
+      .starryMixn(451,120,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(14){
+      .starryMixn(450,166,1);
+      .starSize(3,4);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(21){
+      .starryMixn(432,216,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(1){
+      .starryMixn(418,261,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(8){
+      .starryMixn(365,179,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(16){
+      .starryMixn(335,181,1);
+      .starSize(5,5);
+      .activeStar(@blur: 5,@spread: 2);
+    }
+    :nth-child(23){
+      .starryMixn(305,198,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(3){
+      .starryMixn(232,267,1);
+      .starSize(4,4);
+      .activeStar();
+    }
+    :nth-child(10){
+      .starryMixn(208,317,1);
+      .starSize();
+      .activeStar(@blur: 2);
+    }
+    :nth-child(17){
+      .starryMixn(184,369,1);
+      .starSize();
+      .activeStar(@blur: 2,@spread: 0);
+    }
+    :nth-child(24){
+      .starryMixn(181,376,1);
+      .starSize();
+      .activeStar(@blur: 2,@spread: 0);
+    }
+    :nth-child(4){
+      .starryMixn(130,375,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2,@spread: 0);
+    }
+    :nth-child(11){
+      .starryMixn(62,365,1);
+      .starSize(4,4);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(18){
+      .starryMixn(41,309,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2,@spread: 0);
+    }
+    :nth-child(25){
+      .starryMixn(59,295,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(5){
+      .starryMixn(92,271,1);
+      .starSize(4,4);
+      .activeStar();
+    }
+    :nth-child(12){
+      .starryMixn(100,276,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(19){
+      .starryMixn(43,261,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2);
+    }
+    .starLine1, .starLine2{ visibility: visible;}
+
+    .starLine1{
+      animation: starLineScorpius1 9s;
+    }
+    .starLine2{
+      animation: starLineScorpius2 17s;
+    }
+  }//+7
+}
+
+//SagittariusÉäÊÖ×ù
+.Sagittarius{
+    .starLine1{   -webkit-clip-path: polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 60px 232px, 81px 343px, 126px 412px, 125px 412px, 80px 343px, 59px 231px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px);}
+    .starLine2{  -webkit-clip-path: polygon(263px 179px, 294px 184px, 353px 156px, 381px 224px, 375px 290px, 398px 325px, 396px 324px, 374px 290px, 380px 224px, 352px 158px, 294px 186px, 262px 180px);}
+    .starLine3{  -webkit-clip-path: polygon(222px 120px, 244px 105px, 244px 104px, 221px 119px);}
+    .starLine4{-webkit-clip-path: polygon(354px 160px, 399px 88px, 397px 88px, 353px 157px);}
+    .starLine5{  -webkit-clip-path: polygon(377px 222px, 429px 228px, 429px 227px, 378px 220px);}
+    .starLine6{  -webkit-clip-path: polygon(229px 206px, 247px 236px, 210px 402px, 209px 403px, 246px 236px, 226px 204px);}
+
+    &.active{
+      :nth-child(1){
+        .starryMixn(150,67,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(2){
+        .starryMixn(200,108,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(3){
+        .starryMixn(220,117,1);
+        .starSize(3,3);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(4){
+        .starryMixn(243,104,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(5){
+        .starryMixn(262,179,1);
+        .starSize(4,3);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(6){
+        .starryMixn(226,204,1);
+        .starSize(3,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(8){
+        .starryMixn(59,217,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(9){
+        .starryMixn(59,231 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(10){
+        .starryMixn(80,343 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(11){
+        .starryMixn(83,351 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(12){
+        .starryMixn(124,411 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(13){
+        .starryMixn(245,235 ,1);
+        .starSize(3,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(14){
+        .starryMixn(208,402 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(15){
+        .starryMixn(294,185 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(16){
+        .starryMixn(351,157 ,1);
+        .starSize(3,3);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(17){
+        .starryMixn(397,88 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(18){
+        .starryMixn(378,220 ,1);
+        .starSize(4,4);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(19){
+        .starryMixn(429,227 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(20){
+        .starryMixn(373,288 ,1);
+        .starSize(4,4);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(21){
+        .starryMixn(395,323 ,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+
+      .starLine{ visibility: visible;}
+      .starLine1{
+        animation:starLineSagittarius1 11s;
+      }
+      .starLine2{
+        animation:starLineSagittarius2 11s;
+      }
+
+      .starLine3{
+        animation:starLineSagittarius3 6s;
+      }
+
+      .starLine4{
+        animation:starLineSagittarius4 9s;
+      }
+
+      .starLine5{
+        animation:starLineSagittarius5 10s;
+      }
+
+      .starLine6{
+        animation:starLineSagittarius6 9s;
+      }
+
+
+    }
+  }//+1
+
+ //CapricornusÄ¦ôÉ
+.Capricornus{
+  .starLine1{  -webkit-clip-path: polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 311px 355px, 418px 227px,460px 164px,460px 162px,416px 228px, 311px 353px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px);}
+  &.active{
+    :nth-child(1){
+      .starryMixn(480,120,1);
+      .starSize(4,3);
+      .activeStar;
+     }
+    :nth-child(3){
+      .starryMixn(457,162,1);
+      .starSize(4,3);
+      .activeStar;
+    }
+    :nth-child(5){
+      .starryMixn(236,184,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(7){
+      .starryMixn(159,170,1);
+      .starSize(3,3);
+      .activeStar(@blur: 2,@spread: 0);
+    }
+    :nth-child(9){
+      .starryMixn(73,160,1);
+      .starSize(3,3);
+      .activeStar;
+    }
+    :nth-child(11){
+      .starryMixn(39,148,1);
+      .starSize(4,4);
+      .activeStar;
+    }
+    :nth-child(13){
+      .starryMixn(86,218,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(15){
+      .starryMixn(123 ,266,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(17){
+      .starryMixn(132 ,279,1);
+      .starSize;
+      .activeStar(@blur: 2);
+    }
+    :nth-child(19){
+      .starryMixn(217 ,337,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(21){
+      .starryMixn(282 ,382,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(23){
+      .starryMixn(311 ,352,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2);
+    }
+    :nth-child(25){
+      .starryMixn(416 ,226,1);
+      .starSize(2,2);
+      .activeStar(@blur: 2,@spread: 0);
+    }
+
+    .starLine1{
+      visibility: visible;
+      animation:starLineCapricornus1 15s;
+    }
+
+
+   }
+ }//+2
+
+  //Aquarius±¦Æ¿×ù
+  .Aquarius{
+    .starLine1{   -webkit-clip-path: polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 84px 273px, 136px 222px, 161px 135px, 248px 67px, 248px 69px, 162px 136px, 137px 223px, 85px 273px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    .starLine2{  -webkit-clip-path: polygon(248px 67px, 264px 87px, 313px 90px, 386px 175px, 480px 244px, 491px 254px, 489px 254px, 478px 244px, 386px 178px, 312px 92px, 263px 89px, 246px 67px);}
+    .starLine3{  -webkit-clip-path: polygon(312px 92px, 277px 160px, 268px 236px, 267px 234px, 275px 160px, 311px 90px);}
+    &.active{
+      :nth-child(1){
+        .starryMixn(258,52,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(4){
+        .starryMixn(246,67,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(7){
+        .starryMixn(226,63,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(10){
+        .starryMixn(104,104,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(13){
+        .starryMixn(7,182,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(16){
+        .starryMixn(40,257,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(19){
+        .starryMixn(90,373,1);
+        .starSize(4,4);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(22){
+        .starryMixn(83,301,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(25){
+        .starryMixn(84,272,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(2){
+        .starryMixn(135,222,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(5){
+        .starryMixn(161,135,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(8){
+        .starryMixn(262,87,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(11){
+        .starryMixn(311,90,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(14){
+        .starryMixn(386,175,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(17){
+        .starryMixn(478,244,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(20){
+        .starryMixn(489,254,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(23){
+        .starryMixn(275,160,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(3){
+        .starryMixn(267,234,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+
+      .starLine1,.starLine2,.starLine3{ visibility: visible;}
+      .starLine1{
+        animation:starLineAquarius1 14s;
+      }
+      .starLine2{
+        animation:starLineAquarius2 9s;
+      }
+      .starLine3{
+        animation:starLineAquarius3 8s;
+      }
+    }
+  }//+3
+
+
+  //PiscesË«Óã×ù
+  .Pisces{
+    .starLine1{  -webkit-clip-path: polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 113px 76px, 131px 41px, 132px 41px, 114px 76px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px);;}
+    &.active{
+      :nth-child(1){
+        .starryMixn(345,274,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(3){
+        .starryMixn(345,274,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(5){
+        .starryMixn(401,324,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(7){
+        .starryMixn(473,299,1);
+        .starSize(3,3);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(9){
+        .starryMixn(434,268,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(11){
+        .starryMixn(401,281,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(13){
+        .starryMixn(401,281,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(15){
+        .starryMixn(211,282,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(17){
+        .starryMixn(173,282,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(19){
+        .starryMixn(145,288,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(21){
+        .starryMixn(102,307,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(23){
+        .starryMixn(72,316,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(25){
+        .starryMixn(17,350,1);
+        .starSize(3,3);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(2){
+        .starryMixn(59,277,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(4){
+        .starryMixn(92,208,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(6){
+        .starryMixn(139,143,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(8){
+        .starryMixn(130,104,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2,@spread: 0);
+      }
+      :nth-child(10){
+        .starryMixn(113,75,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(12){
+        .starryMixn(130,40,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+      :nth-child(14){
+        .starryMixn(446,326,1);
+        .starSize(2,2);
+        .activeStar(@blur: 2);
+      }
+
+      .starLine1{ visibility: visible; animation:starLinePisces1 21s;}
+    }
+  }//+4
+}

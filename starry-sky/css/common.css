@@ -1,0 +1,3385 @@
+@import "animation.css";
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #070713;
+}
+#main .starry div {
+  width: 2px;
+  height: 2px;
+  background: #FFF;
+}
+#main .starry :nth-child(1) {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(2) {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(3) {
+  position: absolute;
+  left: 53%;
+  top: 30%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(4) {
+  position: absolute;
+  left: 80%;
+  top: 90%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(5) {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(6) {
+  position: absolute;
+  left: 21%;
+  top: 75%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(7) {
+  position: absolute;
+  left: 35%;
+  top: 65%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(8) {
+  position: absolute;
+  left: 52%;
+  top: 75%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(9) {
+  position: absolute;
+  left: 88%;
+  top: 25%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(10) {
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(11) {
+  position: absolute;
+  left: 18%;
+  top: 72%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(12) {
+  position: absolute;
+  left: 92%;
+  top: 25%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(13) {
+  position: absolute;
+  left: 61%;
+  top: 33%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(14) {
+  position: absolute;
+  left: 12%;
+  top: 47%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(15) {
+  position: absolute;
+  left: 62%;
+  top: 63%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(16) {
+  position: absolute;
+  left: 42%;
+  top: 82%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(17) {
+  position: absolute;
+  left: 83%;
+  top: 19%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(18) {
+  position: absolute;
+  left: 33%;
+  top: 35%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(19) {
+  position: absolute;
+  left: 30%;
+  top: 3%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(20) {
+  position: absolute;
+  left: 64%;
+  top: 10%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(21) {
+  position: absolute;
+  left: 36%;
+  top: 26%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(22) {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(23) {
+  position: absolute;
+  left: 18%;
+  top: 28%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(24) {
+  position: absolute;
+  left: 44%;
+  top: 30%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(25) {
+  position: absolute;
+  left: 34%;
+  top: 20%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(26) {
+  position: absolute;
+  left: 88%;
+  top: 53%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(27) {
+  position: absolute;
+  left: 81%;
+  top: 37%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(28) {
+  position: absolute;
+  left: 76%;
+  top: 75%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(29) {
+  position: absolute;
+  left: 64%;
+  top: 49%;
+  opacity: 0.4;
+}
+#main .starry :nth-child(30) {
+  position: absolute;
+  left: 74%;
+  top: 51%;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(1) {
+  position: absolute;
+  left: 400px;
+  top: 200px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(2) {
+  position: absolute;
+  left: 490px;
+  top: 203px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(3) {
+  position: absolute;
+  left: 470px;
+  top: 403px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(4) {
+  position: absolute;
+  left: 370px;
+  top: 423px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(5) {
+  position: absolute;
+  left: 372px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(6) {
+  position: absolute;
+  left: 172px;
+  top: 323px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(7) {
+  position: absolute;
+  left: 122px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(8) {
+  position: absolute;
+  left: 192px;
+  top: 23px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(9) {
+  position: absolute;
+  left: 222px;
+  top: 193px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(10) {
+  position: absolute;
+  left: 322px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(11) {
+  position: absolute;
+  left: 422px;
+  top: 23px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(12) {
+  position: absolute;
+  left: 222px;
+  top: 423px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(13) {
+  position: absolute;
+  left: 22px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(14) {
+  position: absolute;
+  left: 22px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(15) {
+  position: absolute;
+  left: 242px;
+  top: 60px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(16) {
+  position: absolute;
+  left: 122px;
+  top: 123px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(17) {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(18) {
+  position: absolute;
+  left: 376px;
+  top: 24px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(19) {
+  position: absolute;
+  left: 42px;
+  top: 234px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(20) {
+  position: absolute;
+  left: 92px;
+  top: 73px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(21) {
+  position: absolute;
+  left: 8px;
+  top: 273px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(22) {
+  position: absolute;
+  left: 18px;
+  top: 333px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(23) {
+  position: absolute;
+  left: 338px;
+  top: 33px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(24) {
+  position: absolute;
+  left: 398px;
+  top: 233px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList :nth-child(25) {
+  position: absolute;
+  left: 298px;
+  top: 433px;
+  opacity: 0.4;
+}
+#main .SVG .SVGList {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+#main .SVG .SVGList .star {
+  width: 2px;
+  height: 2px;
+  border-radius: 100px;
+  background: #FFF;
+  box-shadow: 0px 0px  0px 0px #FFF;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+#main .SVG .SVGList .starLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
+  margin: 0;
+  background-color: #FFF;
+  visibility: hidden;
+}
+#main .SVG .SVGList.active .star {
+  z-index: 99;
+}
+#main .SVG {
+  /*+2*/
+  /*+3*/
+  /*+4*/
+  /*+5*/
+}
+#main .SVG .Aries .starLine1 {
+  -webkit-clip-path: polygon(0px 377px, 379px 188px, 475px 235px, 495px 275px, 494px 275px, 474px 236px, 379px 189px, 0px 378px);
+}
+#main .SVG .Aries.active :nth-child(1) {
+  position: absolute;
+  left: 0px;
+  top: 375px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aries.active :nth-child(2) {
+  position: absolute;
+  left: 376px;
+  top: 187px;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aries.active :nth-child(3) {
+  position: absolute;
+  left: 472px;
+  top: 234px;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aries.active :nth-child(4) {
+  position: absolute;
+  left: 492px;
+  top: 273px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aries.active .starLine1 {
+  visibility: visible;
+  animation: starLineAries 9s;
+}
+#main .SVG .Taurus .starLine1 {
+  -webkit-clip-path: polygon(61px 49px, 210px 151px, 255px 210px, 276px 236px, 287px 265px, 286px 266px, 275px 237px, 253px 210px, 209px 152px, 60px 50px);
+}
+#main .SVG .Taurus .starLine2 {
+  -webkit-clip-path: polygon(8px 162px, 227px 253px, 254px 262px, 288px 267px, 286px 265px, 254px 260px, 229px 252px, 8px 161px);
+}
+#main .SVG .Taurus .starLine3 {
+  -webkit-clip-path: polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px, 284px 266px, 287px 266px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px);
+}
+#main .SVG .Taurus .starLine4 {
+  -webkit-clip-path: polygon(495px 364px, 348px 413px, 348px 414px, 496px 365px);
+}
+#main .SVG .Taurus .starLine5 {
+  -webkit-clip-path: polygon(357px 314px, 216px 311px, 224px 348px, 302px 370px, 302px 369px, 225px 347px, 217px 312px, 359px 315px);
+}
+#main .SVG .Taurus.active :nth-child(1) {
+  position: absolute;
+  left: 6px;
+  top: 160px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(2) {
+  position: absolute;
+  left: 60px;
+  top: 48px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(3) {
+  position: absolute;
+  left: 208px;
+  top: 150px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(4) {
+  position: absolute;
+  left: 226px;
+  top: 250px;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(5) {
+  position: absolute;
+  left: 252px;
+  top: 259px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(6) {
+  position: absolute;
+  left: 254px;
+  top: 210px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(7) {
+  position: absolute;
+  left: 266px;
+  top: 163px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(8) {
+  position: absolute;
+  left: 274px;
+  top: 235px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(9) {
+  position: absolute;
+  left: 285px;
+  top: 265px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(10) {
+  position: absolute;
+  left: 338px;
+  top: 167px;
+  opacity: 1;
+  width: 1px;
+  height: 1px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(11) {
+  position: absolute;
+  left: 340px;
+  top: 166px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(12) {
+  position: absolute;
+  left: 356px;
+  top: 313px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(13) {
+  position: absolute;
+  left: 396px;
+  top: 134px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(14) {
+  position: absolute;
+  left: 401px;
+  top: 133px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(15) {
+  position: absolute;
+  left: 404px;
+  top: 135px;
+  opacity: 1;
+  width: 1px;
+  height: 1px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(16) {
+  position: absolute;
+  left: 410px;
+  top: 133px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(17) {
+  position: absolute;
+  left: 407px;
+  top: 129px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(18) {
+  position: absolute;
+  left: 409px;
+  top: 127px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(19) {
+  position: absolute;
+  left: 468px;
+  top: 304px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(20) {
+  position: absolute;
+  left: 485px;
+  top: 354px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(21) {
+  position: absolute;
+  left: 494px;
+  top: 364px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(22) {
+  position: absolute;
+  left: 347px;
+  top: 413px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(23) {
+  position: absolute;
+  left: 300px;
+  top: 368px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(24) {
+  position: absolute;
+  left: 224px;
+  top: 347px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active :nth-child(25) {
+  position: absolute;
+  left: 216px;
+  top: 311px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Taurus.active .starLine1,
+#main .SVG .Taurus.active .starLine2,
+#main .SVG .Taurus.active .starLine3,
+#main .SVG .Taurus.active .starLine4,
+#main .SVG .Taurus.active .starLine5 {
+  visibility: visible;
+}
+#main .SVG .Taurus.active .starLine1 {
+  animation: starLineTaurus1 9s;
+}
+#main .SVG .Taurus.active .starLine2 {
+  animation: starLineTaurus2 9s;
+}
+#main .SVG .Taurus.active .starLine3 {
+  animation: starLineTaurus3 9s;
+  /*30*/
+}
+#main .SVG .Taurus.active .starLine4 {
+  animation: starLineTaurus4 9s;
+  /*27*/
+}
+#main .SVG .Taurus.active .starLine5 {
+  animation: starLineTaurus5 9s;
+  /*36*/
+}
+#main .SVG .Gemini .starLine1 {
+  -webkit-clip-path: polygon(77px 58px, 177px 100px, 298px 209px, 398px 262px, 437px 259px, 488px 240px, 489px 241px, 437px 260px, 397px 263px, 297px 210px, 177px 102px, 77px 60px);
+}
+#main .SVG .Gemini .starLine2 {
+  -webkit-clip-path: polygon(21px 135px, 126px 269px, 202px 301px, 331px 391px, 291px 464px, 292px 465px, 333px 390px, 202px 299px, 128px 268px, 22px 133px);
+}
+#main .SVG .Gemini .starLine3 {
+  -webkit-clip-path: polygon(177px 102px, 262px 27px, 261px 26px, 176px 101px);
+}
+#main .SVG .Gemini .starLine4 {
+  -webkit-clip-path: polygon(125px 267px, 128px 382px, 130px 381px, 127px 267px);
+}
+#main .SVG .Gemini .starLine5 {
+  -webkit-clip-path: polygon(77px 57px, 52px 91px, 53px 92px, 77px 60px);
+}
+#main .SVG .Gemini .starLine6 {
+  -webkit-clip-path: polygon(20px 135px, 52px 91px, 53px 92px, 22px 135px);
+}
+#main .SVG .Gemini.active :nth-child(3) {
+  position: absolute;
+  left: 18px;
+  top: 131px;
+  opacity: 1;
+  width: 7px;
+  height: 7px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  box-shadow: 0px 0px 4px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 4px 2px #FFF;
+  -moz-box-shadow: 0px 0px 4px 2px #FFF;
+  -o-box-shadow: 0px 0px 4px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(5) {
+  position: absolute;
+  left: 75px;
+  top: 57px;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0px 0px 4px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 4px 2px #FFF;
+  -moz-box-shadow: 0px 0px 4px 2px #FFF;
+  -o-box-shadow: 0px 0px 4px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(7) {
+  position: absolute;
+  left: 125px;
+  top: 266px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(9) {
+  position: absolute;
+  left: 176px;
+  top: 100px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(11) {
+  position: absolute;
+  left: 200px;
+  top: 299px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(13) {
+  position: absolute;
+  left: 296px;
+  top: 208px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(15) {
+  position: absolute;
+  left: 289px;
+  top: 462px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(17) {
+  position: absolute;
+  left: 327px;
+  top: 388px;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(19) {
+  position: absolute;
+  left: 396px;
+  top: 260px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(21) {
+  position: absolute;
+  left: 436px;
+  top: 258px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(23) {
+  position: absolute;
+  left: 487px;
+  top: 240px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(2) {
+  position: absolute;
+  left: 258px;
+  top: 25px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(4) {
+  position: absolute;
+  left: 127px;
+  top: 379px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active :nth-child(14) {
+  position: absolute;
+  left: 299px;
+  top: 264px;
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+  box-shadow: 0px 0px 5px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 1px #FFF;
+  -moz-box-shadow: 0px 0px 5px 1px #FFF;
+  -o-box-shadow: 0px 0px 5px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Gemini.active .starLine1,
+#main .SVG .Gemini.active .starLine2,
+#main .SVG .Gemini.active .starLine3,
+#main .SVG .Gemini.active .starLine4,
+#main .SVG .Gemini.active .starLine5,
+#main .SVG .Gemini.active .starLine6 {
+  visibility: visible;
+}
+#main .SVG .Gemini.active .starLine1 {
+  animation: starLineGemini1 9s;
+}
+#main .SVG .Gemini.active .starLine2 {
+  animation: starLineGemini2 9s;
+}
+#main .SVG .Gemini.active .starLine3 {
+  animation: starLineGemini3 9s;
+}
+#main .SVG .Gemini.active .starLine4 {
+  animation: starLineGemini4 9s;
+}
+#main .SVG .Gemini.active .starLine5 {
+  animation: starLineGemini5 9s;
+}
+#main .SVG .Gemini.active .starLine6 {
+  animation: starLineGemini6 9s;
+}
+#main .SVG .Cancer .starLine1 {
+  -webkit-clip-path: polygon(231px 18px, 235px 189px, 290px 215px, 293px 271px, 220px 266px, 233px 185px, 234px 190px, 222px 264px, 291px 269px, 288px 216px, 233px 190px, 229px 18px);
+}
+#main .SVG .Cancer .starLine2 {
+  -webkit-clip-path: polygon(290px 269px, 367px 485px, 368px 482px, 292px 269px);
+}
+#main .SVG .Cancer .starLine3 {
+  -webkit-clip-path: polygon(222px 264px, 133px 404px, 133px 401px, 220px 264px);
+}
+#main .SVG .Cancer.active :nth-child(4) {
+  position: absolute;
+  left: 228px;
+  top: 17px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(7) {
+  position: absolute;
+  left: 232px;
+  top: 187px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(10) {
+  position: absolute;
+  left: 287px;
+  top: 214px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(13) {
+  position: absolute;
+  left: 290px;
+  top: 269px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(16) {
+  position: absolute;
+  left: 219px;
+  top: 263px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(19) {
+  position: absolute;
+  left: 131px;
+  top: 400px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active :nth-child(22) {
+  position: absolute;
+  left: 365px;
+  top: 480px;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+  box-shadow: 0px 0px 4px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 4px 1px #FFF;
+  -moz-box-shadow: 0px 0px 4px 1px #FFF;
+  -o-box-shadow: 0px 0px 4px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Cancer.active .starLine1,
+#main .SVG .Cancer.active .starLine2,
+#main .SVG .Cancer.active .starLine3 {
+  visibility: visible;
+}
+#main .SVG .Cancer.active .starLine1 {
+  animation: starLineCancer1 9s;
+}
+#main .SVG .Cancer.active .starLine2 {
+  animation: starLineCancer2 9s;
+}
+#main .SVG .Cancer.active .starLine3 {
+  animation: starLineCancer3 10s;
+}
+#main .SVG .Leo .starLine1 {
+  -webkit-clip-path: polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 346px 224px, 162px 185px, 18px 247px, 17px 246px, 162px 183px, 347px 222px, 388px 276px, 364px 171px, 449px 140px, 473px 175px);
+}
+#main .SVG .Leo .starLine2 {
+  -webkit-clip-path: polygon(388px 273px, 379px 349px, 145px 256px, 18px 244px, 17px 245px, 145px 258px, 377px 350px, 386px 273px);
+}
+#main .SVG .Leo .starLine3 {
+  -webkit-clip-path: polygon(379px 348px, 279px 374px, 375px 378px, 479px 391px, 476px 389px, 373px 376px, 290px 373px, 380px 349px);
+}
+#main .SVG .Leo .starLine4 {
+  -webkit-clip-path: polygon(148px 258px, 98px 324px, 93px 395px, 92px 394px, 97px 323px, 147px 256px);
+}
+#main .SVG .Leo.active :nth-child(1) {
+  position: absolute;
+  left: 17px;
+  top: 242px;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(5) {
+  position: absolute;
+  left: 160px;
+  top: 182px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(9) {
+  position: absolute;
+  left: 385px;
+  top: 273px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(13) {
+  position: absolute;
+  left: 345px;
+  top: 221px;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(17) {
+  position: absolute;
+  left: 362px;
+  top: 169px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(21) {
+  position: absolute;
+  left: 449px;
+  top: 138px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 1px #FFF;
+  -moz-box-shadow: 0px 0px 1px 1px #FFF;
+  -o-box-shadow: 0px 0px 1px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(25) {
+  position: absolute;
+  left: 472px;
+  top: 173px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(24) {
+  position: absolute;
+  left: 145px;
+  top: 256px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(20) {
+  position: absolute;
+  left: 374px;
+  top: 345px;
+  opacity: 1;
+  width: 7px;
+  height: 7px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(16) {
+  position: absolute;
+  left: 279px;
+  top: 373px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(12) {
+  position: absolute;
+  left: 373px;
+  top: 376px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 1px #FFF;
+  -moz-box-shadow: 0px 0px 1px 1px #FFF;
+  -o-box-shadow: 0px 0px 1px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(8) {
+  position: absolute;
+  left: 476px;
+  top: 389px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(4) {
+  position: absolute;
+  left: 96px;
+  top: 323px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 1px #FFF;
+  -moz-box-shadow: 0px 0px 1px 1px #FFF;
+  -o-box-shadow: 0px 0px 1px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active :nth-child(7) {
+  position: absolute;
+  left: 92px;
+  top: 393px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 1px #FFF;
+  -moz-box-shadow: 0px 0px 1px 1px #FFF;
+  -o-box-shadow: 0px 0px 1px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Leo.active .starLine1,
+#main .SVG .Leo.active .starLine2,
+#main .SVG .Leo.active .starLine3,
+#main .SVG .Leo.active .starLine4 {
+  visibility: visible;
+}
+#main .SVG .Leo.active .starLine1 {
+  animation: starLineLeo1 9s;
+}
+#main .SVG .Leo.active .starLine2 {
+  animation: starLineLeo2 9s;
+}
+#main .SVG .Leo.active .starLine3 {
+  animation: starLineLeo3 10s;
+}
+#main .SVG .Leo.active .starLine4 {
+  animation: starLineLeo4 10s;
+}
+#main .SVG .Virgo .starLine1 {
+  -webkit-clip-path: polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 307px 240px, 135px 202px, 23px 164px, 23px 165px, 133px 203px, 308px 241px, 318px 158px, 364px 183px, 451px 231px, 492px 268px);
+}
+#main .SVG .Virgo .starLine2 {
+  -webkit-clip-path: polygon(464px 311px, 383px 311px, 327px 301px, 240px 316px, 74px 267px, 8px 242px, 8px 243px, 74px 268px, 240px 317px, 327px 302px, 383px 312px, 464px 312px);
+}
+#main .SVG .Virgo .starLine3 {
+  -webkit-clip-path: polygon(328px 301px, 308px 241px, 196px 242px, 196px 241px, 309px 240px, 330px 304px);
+}
+#main .SVG .Virgo .starLine4 {
+  -webkit-clip-path: polygon(240px 317px, 68px 313px, 68px 312px, 240px 316px);
+}
+#main .SVG .Virgo .starLine5 {
+  -webkit-clip-path: polygon(242px 318px, 188px 363px, 187px 362px, 240px 318px);
+}
+#main .SVG .Virgo.active :nth-child(2) {
+  position: absolute;
+  left: 8px;
+  top: 242px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(7) {
+  position: absolute;
+  left: 23px;
+  top: 164px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(12) {
+  position: absolute;
+  left: 74px;
+  top: 267px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(18) {
+  position: absolute;
+  left: 68px;
+  top: 312px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(23) {
+  position: absolute;
+  left: 134px;
+  top: 202px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(4) {
+  position: absolute;
+  left: 183px;
+  top: 360px;
+  opacity: 1;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 5px;
+  height: 5px;
+}
+#main .SVG .Virgo.active :nth-child(9) {
+  position: absolute;
+  left: 195px;
+  top: 240px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(14) {
+  position: absolute;
+  left: 240px;
+  top: 316px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(19) {
+  position: absolute;
+  left: 307px;
+  top: 239px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(24) {
+  position: absolute;
+  left: 316px;
+  top: 156px;
+  opacity: 1;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 3px;
+  height: 3px;
+}
+#main .SVG .Virgo.active :nth-child(6) {
+  position: absolute;
+  left: 327px;
+  top: 301px;
+  opacity: 1;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 3px;
+  height: 3px;
+}
+#main .SVG .Virgo.active :nth-child(11) {
+  position: absolute;
+  left: 324px;
+  top: 314px;
+  opacity: 1;
+  box-shadow: 0px 0px 5px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 2px #FFF;
+  -moz-box-shadow: 0px 0px 5px 2px #FFF;
+  -o-box-shadow: 0px 0px 5px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 10px;
+  height: 10px;
+}
+#main .SVG .Virgo.active :nth-child(16) {
+  position: absolute;
+  left: 366px;
+  top: 183px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(21) {
+  position: absolute;
+  left: 383px;
+  top: 311px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(10) {
+  position: absolute;
+  left: 451px;
+  top: 230px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(15) {
+  position: absolute;
+  left: 464px;
+  top: 311px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active :nth-child(20) {
+  position: absolute;
+  left: 492px;
+  top: 268px;
+  opacity: 1;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+  width: 2px;
+  height: 2px;
+}
+#main .SVG .Virgo.active .starLine1,
+#main .SVG .Virgo.active .starLine2,
+#main .SVG .Virgo.active .starLine3,
+#main .SVG .Virgo.active .starLine4,
+#main .SVG .Virgo.active .starLine5 {
+  visibility: visible;
+}
+#main .SVG .Virgo.active .starLine1 {
+  animation: starLineVirgo1 9s;
+}
+#main .SVG .Virgo.active .starLine2 {
+  animation: starLineVirgo2 9s;
+}
+#main .SVG .Virgo.active .starLine3 {
+  animation: starLineVirgo3 9s;
+}
+#main .SVG .Virgo.active .starLine4 {
+  animation: starLineVirgo4 9s;
+}
+#main .SVG .Virgo.active .starLine5 {
+  animation: starLineVirgo5 9s;
+}
+#main .SVG .Libra .starLine1 {
+  -webkit-clip-path: polygon(285px 122px, 350px 272px, 242px 302px, 242px 301px, 348px 271px, 284px 122px);
+}
+#main .SVG .Libra .starLine2 {
+  -webkit-clip-path: polygon(285px 122px, 177px 188px, 242px 303px, 243px 303px, 179px 188px, 284px 124px);
+}
+#main .SVG .Libra .starLine3 {
+  -webkit-clip-path: polygon(348px 273px, 240px 405px, 241px 406px, 351px 272px);
+}
+#main .SVG .Libra .starLine4 {
+  -webkit-clip-path: polygon(179px 188px, 138px 192px, 92px 197px, 92px 196px, 140px 191px, 178px 187px);
+}
+#main .SVG .Libra.active :nth-child(1) {
+  position: absolute;
+  left: 283px;
+  top: 121px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 5px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 2px #FFF;
+  -moz-box-shadow: 0px 0px 5px 2px #FFF;
+  -o-box-shadow: 0px 0px 5px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(7) {
+  position: absolute;
+  left: 92px;
+  top: 196px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(13) {
+  position: absolute;
+  left: 92px;
+  top: 196px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(19) {
+  position: absolute;
+  left: 138px;
+  top: 190px;
+  opacity: 0.6;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 0px #FFF;
+  -moz-box-shadow: 0px 0px 1px 0px #FFF;
+  -o-box-shadow: 0px 0px 1px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(25) {
+  position: absolute;
+  left: 177px;
+  top: 187px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(2) {
+  position: absolute;
+  left: 238px;
+  top: 297px;
+  opacity: 0.6;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 1px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 1px 0px #FFF;
+  -moz-box-shadow: 0px 0px 1px 0px #FFF;
+  -o-box-shadow: 0px 0px 1px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(8) {
+  position: absolute;
+  left: 241px;
+  top: 301px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(14) {
+  position: absolute;
+  left: 348px;
+  top: 271px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 5px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 2px #FFF;
+  -moz-box-shadow: 0px 0px 5px 2px #FFF;
+  -o-box-shadow: 0px 0px 5px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(20) {
+  position: absolute;
+  left: 239px;
+  top: 404px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active :nth-child(3) {
+  position: absolute;
+  left: 304px;
+  top: 253px;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  box-shadow: 0px 0px 5px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 2px #FFF;
+  -moz-box-shadow: 0px 0px 5px 2px #FFF;
+  -o-box-shadow: 0px 0px 5px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Libra.active .starLine1,
+#main .SVG .Libra.active .starLine2,
+#main .SVG .Libra.active .starLine3,
+#main .SVG .Libra.active .starLine4 {
+  visibility: visible;
+}
+#main .SVG .Libra.active .starLine1 {
+  animation: starLineLibra1 9s;
+}
+#main .SVG .Libra.active .starLine2 {
+  animation: starLineLibra2 9s;
+}
+#main .SVG .Libra.active .starLine3 {
+  animation: starLineLibra3 9s;
+}
+#main .SVG .Libra.active .starLine4 {
+  animation: starLineLibra4 9s;
+}
+#main .SVG .Scorpius .starLine1 {
+  -webkit-clip-path: polygon(454px 120px, 453px 166px, 432px 226px, 419px 263px, 418px 261px, 432px 221px, 451px 166px, 452px 120px);
+}
+#main .SVG .Scorpius .starLine2 {
+  -webkit-clip-path: polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 61px 295px, 91px 274px, 43px 262px, 42px 261px, 96px 273px, 63px 295px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px);
+}
+#main .SVG .Scorpius.active :nth-child(7) {
+  position: absolute;
+  left: 451px;
+  top: 120px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(14) {
+  position: absolute;
+  left: 450px;
+  top: 166px;
+  opacity: 1;
+  width: 3px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(21) {
+  position: absolute;
+  left: 432px;
+  top: 216px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(1) {
+  position: absolute;
+  left: 418px;
+  top: 261px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(8) {
+  position: absolute;
+  left: 365px;
+  top: 179px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(16) {
+  position: absolute;
+  left: 335px;
+  top: 181px;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+  box-shadow: 0px 0px 5px 2px #FFF;
+  -webkit-box-shadow: 0px 0px 5px 2px #FFF;
+  -moz-box-shadow: 0px 0px 5px 2px #FFF;
+  -o-box-shadow: 0px 0px 5px 2px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(23) {
+  position: absolute;
+  left: 305px;
+  top: 198px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(3) {
+  position: absolute;
+  left: 232px;
+  top: 267px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(10) {
+  position: absolute;
+  left: 208px;
+  top: 317px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(17) {
+  position: absolute;
+  left: 184px;
+  top: 369px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(24) {
+  position: absolute;
+  left: 181px;
+  top: 376px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(4) {
+  position: absolute;
+  left: 130px;
+  top: 375px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(11) {
+  position: absolute;
+  left: 62px;
+  top: 365px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(18) {
+  position: absolute;
+  left: 41px;
+  top: 309px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(25) {
+  position: absolute;
+  left: 59px;
+  top: 295px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(5) {
+  position: absolute;
+  left: 92px;
+  top: 271px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(12) {
+  position: absolute;
+  left: 100px;
+  top: 276px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active :nth-child(19) {
+  position: absolute;
+  left: 43px;
+  top: 261px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Scorpius.active .starLine1,
+#main .SVG .Scorpius.active .starLine2 {
+  visibility: visible;
+}
+#main .SVG .Scorpius.active .starLine1 {
+  animation: starLineScorpius1 9s;
+}
+#main .SVG .Scorpius.active .starLine2 {
+  animation: starLineScorpius2 17s;
+}
+#main .SVG .Sagittarius .starLine1 {
+  -webkit-clip-path: polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 60px 232px, 81px 343px, 126px 412px, 125px 412px, 80px 343px, 59px 231px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px);
+}
+#main .SVG .Sagittarius .starLine2 {
+  -webkit-clip-path: polygon(263px 179px, 294px 184px, 353px 156px, 381px 224px, 375px 290px, 398px 325px, 396px 324px, 374px 290px, 380px 224px, 352px 158px, 294px 186px, 262px 180px);
+}
+#main .SVG .Sagittarius .starLine3 {
+  -webkit-clip-path: polygon(222px 120px, 244px 105px, 244px 104px, 221px 119px);
+}
+#main .SVG .Sagittarius .starLine4 {
+  -webkit-clip-path: polygon(354px 160px, 399px 88px, 397px 88px, 353px 157px);
+}
+#main .SVG .Sagittarius .starLine5 {
+  -webkit-clip-path: polygon(377px 222px, 429px 228px, 429px 227px, 378px 220px);
+}
+#main .SVG .Sagittarius .starLine6 {
+  -webkit-clip-path: polygon(229px 206px, 247px 236px, 210px 402px, 209px 403px, 246px 236px, 226px 204px);
+}
+#main .SVG .Sagittarius.active :nth-child(1) {
+  position: absolute;
+  left: 150px;
+  top: 67px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(2) {
+  position: absolute;
+  left: 200px;
+  top: 108px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(3) {
+  position: absolute;
+  left: 220px;
+  top: 117px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(4) {
+  position: absolute;
+  left: 243px;
+  top: 104px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(5) {
+  position: absolute;
+  left: 262px;
+  top: 179px;
+  opacity: 1;
+  width: 4px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(6) {
+  position: absolute;
+  left: 226px;
+  top: 204px;
+  opacity: 1;
+  width: 3px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(8) {
+  position: absolute;
+  left: 59px;
+  top: 217px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(9) {
+  position: absolute;
+  left: 59px;
+  top: 231px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(10) {
+  position: absolute;
+  left: 80px;
+  top: 343px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(11) {
+  position: absolute;
+  left: 83px;
+  top: 351px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(12) {
+  position: absolute;
+  left: 124px;
+  top: 411px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(13) {
+  position: absolute;
+  left: 245px;
+  top: 235px;
+  opacity: 1;
+  width: 3px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(14) {
+  position: absolute;
+  left: 208px;
+  top: 402px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(15) {
+  position: absolute;
+  left: 294px;
+  top: 185px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(16) {
+  position: absolute;
+  left: 351px;
+  top: 157px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(17) {
+  position: absolute;
+  left: 397px;
+  top: 88px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(18) {
+  position: absolute;
+  left: 378px;
+  top: 220px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(19) {
+  position: absolute;
+  left: 429px;
+  top: 227px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(20) {
+  position: absolute;
+  left: 373px;
+  top: 288px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active :nth-child(21) {
+  position: absolute;
+  left: 395px;
+  top: 323px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Sagittarius.active .starLine {
+  visibility: visible;
+}
+#main .SVG .Sagittarius.active .starLine1 {
+  animation: starLineSagittarius1 11s;
+}
+#main .SVG .Sagittarius.active .starLine2 {
+  animation: starLineSagittarius2 11s;
+}
+#main .SVG .Sagittarius.active .starLine3 {
+  animation: starLineSagittarius3 6s;
+}
+#main .SVG .Sagittarius.active .starLine4 {
+  animation: starLineSagittarius4 9s;
+}
+#main .SVG .Sagittarius.active .starLine5 {
+  animation: starLineSagittarius5 10s;
+}
+#main .SVG .Sagittarius.active .starLine6 {
+  animation: starLineSagittarius6 9s;
+}
+#main .SVG .Capricornus .starLine1 {
+  -webkit-clip-path: polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 311px 355px, 418px 227px, 460px 164px, 460px 162px, 416px 228px, 311px 353px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px);
+}
+#main .SVG .Capricornus.active :nth-child(1) {
+  position: absolute;
+  left: 480px;
+  top: 120px;
+  opacity: 1;
+  width: 4px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(3) {
+  position: absolute;
+  left: 457px;
+  top: 162px;
+  opacity: 1;
+  width: 4px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(5) {
+  position: absolute;
+  left: 236px;
+  top: 184px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(7) {
+  position: absolute;
+  left: 159px;
+  top: 170px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(9) {
+  position: absolute;
+  left: 73px;
+  top: 160px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(11) {
+  position: absolute;
+  left: 39px;
+  top: 148px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 3px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 3px 1px #FFF;
+  -moz-box-shadow: 0px 0px 3px 1px #FFF;
+  -o-box-shadow: 0px 0px 3px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(13) {
+  position: absolute;
+  left: 86px;
+  top: 218px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(15) {
+  position: absolute;
+  left: 123px;
+  top: 266px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(17) {
+  position: absolute;
+  left: 132px;
+  top: 279px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(19) {
+  position: absolute;
+  left: 217px;
+  top: 337px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(21) {
+  position: absolute;
+  left: 282px;
+  top: 382px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(23) {
+  position: absolute;
+  left: 311px;
+  top: 352px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active :nth-child(25) {
+  position: absolute;
+  left: 416px;
+  top: 226px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Capricornus.active .starLine1 {
+  visibility: visible;
+  animation: starLineCapricornus1 15s;
+}
+#main .SVG .Aquarius .starLine1 {
+  -webkit-clip-path: polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px, 41px 257px, 90px 367px, 83px 302px, 84px 273px, 136px 222px, 161px 135px, 248px 67px, 248px 69px, 162px 136px, 137px 223px, 85px 273px, 84px 301px, 93px 377px, 40px 257px, 7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px);
+}
+#main .SVG .Aquarius .starLine2 {
+  -webkit-clip-path: polygon(248px 67px, 264px 87px, 313px 90px, 386px 175px, 480px 244px, 491px 254px, 489px 254px, 478px 244px, 386px 178px, 312px 92px, 263px 89px, 246px 67px);
+}
+#main .SVG .Aquarius .starLine3 {
+  -webkit-clip-path: polygon(312px 92px, 277px 160px, 268px 236px, 267px 234px, 275px 160px, 311px 90px);
+}
+#main .SVG .Aquarius.active :nth-child(1) {
+  position: absolute;
+  left: 258px;
+  top: 52px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(4) {
+  position: absolute;
+  left: 246px;
+  top: 67px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(7) {
+  position: absolute;
+  left: 226px;
+  top: 63px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(10) {
+  position: absolute;
+  left: 104px;
+  top: 104px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(13) {
+  position: absolute;
+  left: 7px;
+  top: 182px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(16) {
+  position: absolute;
+  left: 40px;
+  top: 257px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(19) {
+  position: absolute;
+  left: 90px;
+  top: 373px;
+  opacity: 1;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(22) {
+  position: absolute;
+  left: 83px;
+  top: 301px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(25) {
+  position: absolute;
+  left: 84px;
+  top: 272px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(2) {
+  position: absolute;
+  left: 135px;
+  top: 222px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(5) {
+  position: absolute;
+  left: 161px;
+  top: 135px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(8) {
+  position: absolute;
+  left: 262px;
+  top: 87px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(11) {
+  position: absolute;
+  left: 311px;
+  top: 90px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(14) {
+  position: absolute;
+  left: 386px;
+  top: 175px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(17) {
+  position: absolute;
+  left: 478px;
+  top: 244px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(20) {
+  position: absolute;
+  left: 489px;
+  top: 254px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(23) {
+  position: absolute;
+  left: 275px;
+  top: 160px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active :nth-child(3) {
+  position: absolute;
+  left: 267px;
+  top: 234px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Aquarius.active .starLine1,
+#main .SVG .Aquarius.active .starLine2,
+#main .SVG .Aquarius.active .starLine3 {
+  visibility: visible;
+}
+#main .SVG .Aquarius.active .starLine1 {
+  animation: starLineAquarius1 14s;
+}
+#main .SVG .Aquarius.active .starLine2 {
+  animation: starLineAquarius2 9s;
+}
+#main .SVG .Aquarius.active .starLine3 {
+  animation: starLineAquarius3 8s;
+}
+#main .SVG .Pisces .starLine1 {
+  -webkit-clip-path: polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 113px 76px, 131px 41px, 132px 41px, 114px 76px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px);
+}
+#main .SVG .Pisces.active :nth-child(1) {
+  position: absolute;
+  left: 345px;
+  top: 274px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(3) {
+  position: absolute;
+  left: 345px;
+  top: 274px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(5) {
+  position: absolute;
+  left: 401px;
+  top: 324px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(7) {
+  position: absolute;
+  left: 473px;
+  top: 299px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(9) {
+  position: absolute;
+  left: 434px;
+  top: 268px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(11) {
+  position: absolute;
+  left: 401px;
+  top: 281px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(13) {
+  position: absolute;
+  left: 401px;
+  top: 281px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(15) {
+  position: absolute;
+  left: 211px;
+  top: 282px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(17) {
+  position: absolute;
+  left: 173px;
+  top: 282px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(19) {
+  position: absolute;
+  left: 145px;
+  top: 288px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(21) {
+  position: absolute;
+  left: 102px;
+  top: 307px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(23) {
+  position: absolute;
+  left: 72px;
+  top: 316px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(25) {
+  position: absolute;
+  left: 17px;
+  top: 350px;
+  opacity: 1;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(2) {
+  position: absolute;
+  left: 59px;
+  top: 277px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(4) {
+  position: absolute;
+  left: 92px;
+  top: 208px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(6) {
+  position: absolute;
+  left: 139px;
+  top: 143px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(8) {
+  position: absolute;
+  left: 130px;
+  top: 104px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 0px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 0px #FFF;
+  -moz-box-shadow: 0px 0px 2px 0px #FFF;
+  -o-box-shadow: 0px 0px 2px 0px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(10) {
+  position: absolute;
+  left: 113px;
+  top: 75px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(12) {
+  position: absolute;
+  left: 130px;
+  top: 40px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active :nth-child(14) {
+  position: absolute;
+  left: 446px;
+  top: 326px;
+  opacity: 1;
+  width: 2px;
+  height: 2px;
+  box-shadow: 0px 0px 2px 1px #FFF;
+  -webkit-box-shadow: 0px 0px 2px 1px #FFF;
+  -moz-box-shadow: 0px 0px 2px 1px #FFF;
+  -o-box-shadow: 0px 0px 2px 1px #FFF;
+  animation: star 3s;
+  -webkit-animation: star 3s;
+  -moz-animation: star 3s;
+}
+#main .SVG .Pisces.active .starLine1 {
+  visibility: visible;
+  animation: starLinePisces1 21s;
+}

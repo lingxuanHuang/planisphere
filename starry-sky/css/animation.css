@@ -1,0 +1,395 @@
+@keyframes star {
+    0% {
+        box-shadow:  0 0  5px 1px #FFF;
+    }
+    30% {
+        box-shadow:  0 0  3px 2px #FFF;
+    }
+    60% {
+        box-shadow:  0 0  10px 3px #FFF;
+    }
+    90% {
+        box-shadow:  0 0  3px 1px #FFF;
+    }
+}
+
+/*°×Ñò×ù*/
+@keyframes starLineAries {
+    0% {  -webkit-clip-path: polygon( 0px 377px , 0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 378px ); }
+    20% {  -webkit-clip-path: polygon( 0px 377px , 0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 377px ,0px 378px ); }
+    30%{ -webkit-clip-path: polygon( 0px 377px , 379px 188px,379px 188px ,379px 188px ,379px 188px,379px 188px ,379px 189px,0px 378px ); }
+    40%{  -webkit-clip-path: polygon( 0px 377px , 379px 188px,475px 235px,475px 235px ,475px 235px ,474px 235px,379px 189px,0px 378px );}
+    50%{  -webkit-clip-path:polygon( 0px 377px , 379px 188px, 475px 235px, 495px 275px,494px 275px, 474px 236px,379px 189px,0px 378px )}
+}
+
+/*½ðÅ£×ù*/
+@keyframes starLineTaurus1 {
+    0%{-webkit-clip-path:polygon(61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,60px 50px);    }
+    20%{-webkit-clip-path:polygon(61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,61px 49px,60px 50px);    }
+    40%{-webkit-clip-path:polygon(61px 49px, 210px 151px, 210px 151px, 210px 151px, 210px 151px, 210px 151px, 210px 151px, 210px 151px,209px 152px, 60px 50px);}
+    60%{-webkit-clip-path:polygon(61px 49px, 210px 151px, 255px 210px, 255px 210px, 255px 210px, 255px 210px, 255px 210px, 253px 210px, 209px 152px, 60px 50px);}
+    80%{-webkit-clip-path:polygon(61px 49px, 210px 151px, 255px 210px, 276px 236px, 276px 236px, 276px 236px, 275px 237px, 253px 210px, 209px 152px, 60px 50px);}
+    100%{-webkit-clip-path:polygon(61px 49px, 210px 151px, 255px 210px, 276px 236px, 287px 265px, 286px 266px, 275px 237px, 253px 210px, 209px 152px, 60px 50px);}
+}
+@keyframes starLineTaurus2{
+    0%{-webkit-clip-path:polygon(8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 161px);}
+    20%{-webkit-clip-path:polygon(8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 162px,8px 161px);}
+    60%{-webkit-clip-path:polygon(8px 162px, 227px 253px,227px 253px,227px 253px,227px 253px,227px 253px,229px 252px, 8px 161px );}
+    80%{-webkit-clip-path:polygon(8px 162px, 227px 253px, 254px 262px,254px 262px,254px 262px,254px 260px, 229px 252px, 8px 161px );}
+    100%{-webkit-clip-path:polygon(8px 162px, 227px 253px, 254px 262px, 288px 267px, 286px 265px, 254px 260px, 229px 252px, 8px 161px);}
+}
+
+/*@keyframes starLineTaurus3 {*/
+    /*0%{-webkit-clip-path:polygon(255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,256px 212px)}*/
+    /*30%{-webkit-clip-path:polygon(255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,256px 212px)}*/
+    /*40%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px,267px 165px, 256px 212px)}*/
+    /*50%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 167px, 267px 165px, 256px 212px)}*/
+    /*60%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px,403px 133px,403px 133px,403px 133px,403px 133px,403px 133px,403px 133px, 403px 133px ,403px 133px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}*/
+    /*70%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px,470px 304px,470px 304px,470px 304px,470px 304px,470px 304px,470px 304px,469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px))}*/
+    /*80%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px,487px 356px,487px 356px,487px 356px,487px 356px,485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}*/
+    /*90%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px,358px 315px,358px 315px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px )}*/
+    /*100%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px, 284px 266px, 287px 266px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}*/
+/*}*/
+/*@keyframes starLineTaurus4{*/
+    /*0%{-webkit-clip-path:polygon(495px 364px, 495px 364px, 495px 364px, 496px 365px)}*/
+    /*89%{-webkit-clip-path:polygon(495px 364px, 495px 364px, 495px 364px, 496px 365px)}*/
+    /*100%{-webkit-clip-path:polygon(495px 364px, 348px 413px, 348px 414px, 496px 365px)}*/
+/*}*/
+/*@keyframes starLineTaurus5{*/
+    /*0%{-webkit-clip-path:polygon(357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,359px 315px)}*/
+    /*75%{-webkit-clip-path:polygon(357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,359px 315px)}*/
+    /*84%{-webkit-clip-path:polygon(357px 314px, 216px 311px,216px 311px,216px 311px,216px 311px,216px 311px, 217px 312px, 359px 315px)}*/
+    /*92%{-webkit-clip-path:polygon(357px 314px, 216px 311px, 224px 348px,224px 348px,224px 348px, 225px 347px, 217px 312px, 359px 315px)}*/
+    /*100%{-webkit-clip-path:polygon(357px 314px, 216px 311px, 224px 348px, 302px 370px, 302px 369px, 225px 347px, 217px 312px, 359px 315px)}*/
+/*}*/
+
+@keyframes starLineTaurus3 {
+    0%{-webkit-clip-path:polygon(255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,256px 212px)}
+    20%{-webkit-clip-path:polygon(255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,255px 211px,256px 212px)}
+    32%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px, 266px 164px,267px 165px, 256px 212px)}
+    38%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 166px, 341px 167px, 267px 165px, 256px 212px)}
+    48%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 403px 133px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}
+    60%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 470px 304px, 470px 304px, 470px 304px, 470px 304px, 470px 304px, 470px 304px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}
+    72%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 487px 356px, 487px 356px, 487px 356px, 487px 356px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}
+    84%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px,358px 315px,358px 315px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px )}
+    100%{-webkit-clip-path:polygon(255px 211px, 266px 164px, 341px 166px, 403px 133px, 470px 304px, 487px 356px, 358px 315px, 284px 266px, 287px 266px, 359px 314px, 485px 354px, 469px 306px, 402px 135px, 341px 167px, 267px 165px, 256px 212px)}
+}
+@keyframes starLineTaurus4{
+    0%{-webkit-clip-path:polygon(495px 364px, 495px 364px, 495px 364px, 496px 365px)}
+    20%{-webkit-clip-path:polygon(495px 364px, 495px 364px, 495px 364px, 496px 365px)}
+    100%{-webkit-clip-path:polygon(495px 364px, 348px 413px, 348px 414px, 496px 365px)}
+}
+@keyframes starLineTaurus5{
+    0%{-webkit-clip-path:polygon(357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,359px 315px)}
+    20%{-webkit-clip-path:polygon(357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,357px 314px,359px 315px)}
+    50%{-webkit-clip-path:polygon(357px 314px, 216px 311px,216px 311px,216px 311px,216px 311px,216px 311px, 217px 312px, 359px 315px)}
+    75%{-webkit-clip-path:polygon(357px 314px, 216px 311px, 224px 348px,224px 348px,224px 348px, 225px 347px, 217px 312px, 359px 315px)}
+    100%{-webkit-clip-path:polygon(357px 314px, 216px 311px, 224px 348px, 302px 370px, 302px 369px, 225px 347px, 217px 312px, 359px 315px)}
+}
+
+/*Ë«×Ó×ù*/
+@keyframes starLineGemini1{
+    0%{-webkit-clip-path:polygon(77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 60px);}
+    20%{-webkit-clip-path:polygon(77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 58px, 77px 60px);}
+    36%{-webkit-clip-path:polygon(77px 58px,177px 100px,177px 100px,177px 100px,177px 100px,177px 100px,177px 100px,177px 100px,177px 100px,177px 100px, 177px 102px, 77px 60px);}
+    52%{-webkit-clip-path:polygon(77px 58px,177px 100px,298px 209px,298px 209px,298px 209px,298px 209px,298px 209px,298px 209px,298px 209px, 297px 210px,  177px 102px, 77px 60px);}
+    68%{-webkit-clip-path:polygon(77px 58px,177px 100px,298px 209px, 398px 262px,398px 262px,398px 262px,398px 262px,398px 262px, 397px 263px, 297px 210px,  177px 102px, 77px 60px);}
+    84%{-webkit-clip-path:polygon(77px 58px,177px 100px,298px 209px, 398px 262px, 437px 259px,437px 259px,437px 259px, 437px 260px, 397px 263px, 297px 210px,  177px 102px, 77px 60px);}
+    100%{-webkit-clip-path:polygon( 77px 58px,177px 100px,298px 209px, 398px 262px, 437px 259px, 488px 240px, 489px 241px, 437px 260px, 397px 263px, 297px 210px,  177px 102px, 77px 60px);}
+
+}
+
+@keyframes starLineGemini2{
+    0%{-webkit-clip-path:polygon( 21px 135px,  21px 135px,  21px 135px, 21px 135px, 21px 135px,  21px 135px,  21px 135px,  21px 135px,  21px 135px,  22px 133px)}
+    20%{-webkit-clip-path:polygon(21px 135px,  21px 135px,  21px 135px, 21px 135px,  21px 135px,  21px 135px,  21px 135px,  21px 135px,  21px 135px, 22px 133px)}
+    40%{-webkit-clip-path:polygon(21px 135px, 126px 269px, 126px 269px, 126px 269px, 126px 269px, 126px 269px, 126px 269px, 126px 269px, 128px 268px, 22px 133px)}
+    60%{-webkit-clip-path:polygon(21px 135px, 126px 269px, 202px 301px, 202px 301px, 202px 301px, 202px 301px, 202px 301px, 202px 299px, 128px 268px, 22px 133px)}
+    80%{-webkit-clip-path:polygon(21px 135px, 126px 269px, 202px 301px, 331px 391px, 331px 391px, 331px 391px, 333px 390px, 202px 299px, 128px 268px, 22px 133px)}
+    100%{-webkit-clip-path:polygon(21px 135px, 126px 269px, 202px 301px, 331px 391px, 291px 464px, 292px 465px, 333px 390px, 202px 299px, 128px 268px, 22px 133px)}
+}
+
+@keyframes starLineGemini3{
+    0%{-webkit-clip-path:polygon(177px 102px, 177px 102px, 177px 102px, 176px 101px)}
+    20%{-webkit-clip-path:polygon(177px 102px, 177px 102px, 177px 102px, 176px 101px)}
+    100%{-webkit-clip-path:polygon(177px 102px, 262px 27px, 261px 26px, 176px 101px)}
+   }
+@keyframes starLineGemini4{
+    0%{-webkit-clip-path:polygon(125px 267px, 125px 267px, 125px 267px, 127px 267px)}
+    20%{-webkit-clip-path:polygon(125px 267px, 125px 267px, 125px 267px, 127px 267px)}
+    100%{-webkit-clip-path:polygon(125px 267px, 128px 382px, 130px 381px, 127px 267px)}
+}
+@keyframes starLineGemini5{
+    0%{-webkit-clip-path:polygon(77px 57px, 77px 57px, 77px 57px, 77px 60px)}
+    20%{-webkit-clip-path:polygon(77px 57px, 77px 57px, 77px 57px, 77px 60px)}
+    100%{-webkit-clip-path:polygon(77px 57px, 52px 91px, 53px 92px,77px 60px)}
+}
+@keyframes starLineGemini6{
+    0%{-webkit-clip-path:polygon(20px 135px, 20px 135px, 20px 135px, 22px 135px)}
+    20%{-webkit-clip-path:polygon(20px 135px, 20px 135px, 20px 135px, 22px 135px)}
+    100%{-webkit-clip-path:polygon(20px 135px, 52px 91px, 53px 92px, 22px 135px)}
+}
+
+/*¾ÞÐ·×ù*/
+@keyframes starLineCancer1{
+    0% {-webkit-clip-path:polygon( 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 229px 18px)}
+    33.3% {-webkit-clip-path:polygon(231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 231px 18px, 229px 18px)}
+    55.5% {-webkit-clip-path:polygon(231px 18px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 235px 189px, 233px 190px, 229px 18px)}
+    66.6% {-webkit-clip-path:polygon(231px 18px, 235px 189px, 290px 215px, 290px 215px, 290px 215px, 290px 215px, 290px 215px, 290px 215px, 290px 215px, 288px 216px, 233px 190px, 229px 18px)}
+    77.7% {-webkit-clip-path:polygon(231px 18px, 235px 189px, 290px 215px, 293px 271px, 293px 271px, 293px 271px, 293px 271px, 293px 271px, 291px 269px, 288px 216px, 233px 190px, 229px 18px)}
+    88.8% {-webkit-clip-path:polygon(231px 18px, 235px 189px, 290px 215px, 293px 271px, 220px 266px, 220px 266px, 220px 266px, 222px 264px, 291px 269px, 288px 216px, 233px 190px, 229px 18px)}
+    100% {-webkit-clip-path:polygon(231px 18px, 235px 189px, 290px 215px, 293px 271px, 220px 266px, 233px 185px, 234px 190px, 222px 264px, 291px 269px, 288px 216px, 233px 190px, 229px 18px)}
+}
+@keyframes starLineCancer2{
+    0% {-webkit-clip-path:polygon(290px 269px, 290px 269px, 290px 269px, 292px 269px)}
+    77.7% {-webkit-clip-path:polygon(290px 269px, 290px 269px, 290px 269px, 292px 269px)}
+    100% {-webkit-clip-path:polygon(290px 269px, 367px 485px, 368px 482px, 292px 269px)}
+}
+@keyframes starLineCancer3{
+    0% {-webkit-clip-path:polygon(222px 264px, 222px 264px, 222px 264px, 220px 264px)}
+    80% {-webkit-clip-path:polygon(222px 264px, 222px 264px, 222px 264px, 220px 264px)}
+    100% {-webkit-clip-path:polygon(222px 264px, 133px 404px, 133px 401px, 220px 264px)}
+}
+
+/*Ê¨×Ó×ù*/
+@keyframes starLineLeo1{
+    0%{-webkit-clip-path:polygon(474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px, 473px 175px)}
+    33.3%{-webkit-clip-path:polygon(474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px,474px 174px, 473px 175px)}
+    44.4%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 450px 138px, 449px 140px, 473px 175px)}
+    55.5%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 362px 170px, 364px 171px, 449px 140px, 473px 175px)}
+    66.6%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 386px 276px, 386px 276px, 386px 276px, 386px 276px, 386px 276px, 386px 276px, 388px 276px, 364px 171px, 449px 140px, 473px 175px)}
+    77.7%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 346px 224px, 346px 224px, 346px 224px, 346px 224px, 346px 224px, 347px 222px, 388px 276px, 364px 171px, 449px 140px, 473px 175px)}
+    88.8%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 346px 224px, 162px 185px, 162px 185px, 162px 185px, 162px 183px, 347px 222px, 388px 276px, 364px 171px, 449px 140px, 473px 175px)}
+    100%{-webkit-clip-path:polygon(474px 174px, 450px 138px, 362px 170px, 386px 276px, 346px 224px, 162px 185px, 18px 247px, 17px 246px, 162px 183px, 347px 222px, 388px 276px, 364px 171px, 449px 140px, 473px 175px)}
+}
+
+@keyframes starLineLeo2 {
+    0%{-webkit-clip-path:polygon(388px 273px,388px 273px,388px 273px,388px 273px,388px 273px,388px 273px,388px 273px, 386px 273px)}
+    66.6%{-webkit-clip-path:polygon(388px 273px,388px 273px,388px 273px,388px 273px,388px 273px,388px 273px,388px 273px, 386px 273px)}
+    78%{-webkit-clip-path:polygon(388px 273px, 379px 349px, 379px 349px, 379px 349px, 379px 349px, 379px 349px, 377px 350px, 386px 273px)}
+    90%{-webkit-clip-path:polygon(388px 273px, 379px 349px, 145px 256px, 145px 256px, 145px 256px, 145px 258px, 377px 350px, 386px 273px)}
+    100%{-webkit-clip-path:polygon(388px 273px, 379px 349px, 145px 256px, 18px 244px, 17px 245px, 145px 258px, 377px 350px, 386px 273px)}
+}
+
+@keyframes starLineLeo3 {
+    0%{-webkit-clip-path:polygon(379px 348px,379px 348px,379px 348px,379px 348px,379px 348px,379px 348px,379px 348px, 380px 349px)}
+    70%{-webkit-clip-path:polygon(379px 348px,379px 348px,379px 348px,379px 348px,379px 348px,379px 348px,379px 348px, 380px 349px)}
+    80%{-webkit-clip-path:polygon(379px 348px, 279px 374px, 279px 374px, 279px 374px, 279px 374px, 279px 374px, 290px 373px, 380px 349px)}
+    90%{-webkit-clip-path:polygon(379px 348px, 279px 374px, 375px 378px, 375px 378px, 375px 378px, 373px 376px, 290px 373px, 380px 349px)}
+    100%{-webkit-clip-path:polygon(379px 348px, 279px 374px, 375px 378px, 479px 391px, 476px 389px, 373px 376px, 290px 373px, 380px 349px)}
+}
+@keyframes starLineLeo4{
+    0%{-webkit-clip-path:polygon(148px 258px,148px 258px,148px 258px,148px 258px,148px 258px, 147px 256px)}
+    80%{-webkit-clip-path:polygon(148px 258px,148px 258px,148px 258px,148px 258px,148px 258px, 147px 256px)}
+    90%{-webkit-clip-path:polygon(148px 258px, 98px 324px, 98px 324px, 98px 324px, 97px 323px, 147px 256px)}
+    100%{-webkit-clip-path:polygon(148px 258px, 98px 324px, 93px 395px, 92px 394px, 97px 323px, 147px 256px)}
+}
+
+
+/*´¦Å®×ù*/
+@keyframes starLineVirgo1{
+    0%{-webkit-clip-path:polygon(494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px, 492px 268px)}
+    33.3%{-webkit-clip-path:polygon(494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px,494px 268px, 492px 268px)}
+    40%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 453px 231px, 451px 231px, 492px 268px)}
+    50%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 366px 183px, 364px 183px, 451px 231px, 492px 268px)}
+    60%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 317px 156px, 317px 156px, 317px 156px, 317px 156px, 317px 156px, 317px 156px, 318px 158px, 364px 183px, 451px 231px, 492px 268px)}
+    70%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 307px 240px, 307px 240px, 307px 240px, 307px 240px, 307px 240px, 308px 241px, 318px 158px, 364px 183px, 451px 231px, 492px 268px)}
+    80%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 307px 240px, 135px 202px, 135px 202px, 135px 202px, 133px 203px, 308px 241px, 318px 158px, 364px 183px, 451px 231px, 492px 268px)}
+    100%{-webkit-clip-path:polygon(494px 268px, 453px 231px, 366px 183px, 317px 156px, 307px 240px, 135px 202px, 23px 164px, 23px 165px, 133px 203px, 308px 241px, 318px 158px, 364px 183px, 451px 231px, 492px 268px)}
+}
+@keyframes starLineVirgo2{
+    0%{-webkit-clip-path:polygon(464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px, 464px 312px)}
+    33.3%{-webkit-clip-path:polygon(464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px,464px 311px, 464px 312px)}
+    45%{-webkit-clip-path:polygon(464px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 311px, 383px 312px, 464px 312px)}
+    60%{-webkit-clip-path:polygon(464px 311px, 383px 311px, 327px 301px, 327px 301px, 327px 301px, 327px 301px, 327px 301px, 327px 301px, 327px 301px, 327px 302px, 383px 312px, 464px 312px)}
+    75%{-webkit-clip-path:polygon(464px 311px, 383px 311px, 327px 301px, 240px 316px, 240px 316px, 240px 316px, 240px 316px, 240px 316px, 240px 317px, 327px 302px, 383px 312px, 464px 312px)}
+    90%{-webkit-clip-path:polygon(464px 311px, 383px 311px, 327px 301px, 240px 316px, 74px 267px, 74px 267px, 74px 267px, 74px 268px, 240px 317px, 327px 302px, 383px 312px, 464px 312px)}
+    100%{-webkit-clip-path:polygon(464px 311px, 383px 311px, 327px 301px, 240px 316px, 74px 267px, 8px 242px, 8px 243px, 74px 268px, 240px 317px, 327px 302px, 383px 312px, 464px 312px)}
+}
+@keyframes starLineVirgo3{
+    0%{-webkit-clip-path:polygon(328px 301px,328px 301px,328px 301px,328px 301px,328px 301px, 330px 304px)}
+    60%{-webkit-clip-path:polygon(328px 301px,328px 301px,328px 301px,328px 301px,328px 301px, 330px 304px)}
+    80%{-webkit-clip-path:polygon(328px 301px, 308px 241px, 308px 241px, 308px 241px, 309px 240px, 330px 304px)}
+    100%{-webkit-clip-path:polygon(328px 301px, 308px 241px, 196px 242px, 196px 241px, 309px 240px, 330px 304px)}
+    }
+@keyframes starLineVirgo4{
+    0%{-webkit-clip-path:polygon(240px 317px,240px 317px,240px 317px, 240px 316px)}
+    75%{-webkit-clip-path:polygon(240px 317px,240px 317px,240px 317px, 240px 316px)}
+    100%{-webkit-clip-path:polygon(240px 317px, 68px 313px, 68px 312px, 240px 316px)}
+}
+@keyframes starLineVirgo5{
+    0%{-webkit-clip-path:polygon(242px 318px,242px 318px,242px 318px, 240px 318px)}
+    75%{-webkit-clip-path:polygon(242px 318px,242px 318px,242px 318px, 240px 318px)}
+    100%{-webkit-clip-path:polygon(242px 318px, 188px 363px, 187px 362px, 240px 318px)}
+}
+
+
+
+/*Ìì³Ó×ù*/
+@keyframes starLineLibra1{
+    0%{-webkit-clip-path:polygon(285px 122px,285px 122px,285px 122px,285px 122px,285px 122px, 284px 122px)}
+    33.3%{-webkit-clip-path:polygon(285px 122px,285px 122px,285px 122px,285px 122px,285px 122px, 284px 122px)}
+    66.6%{-webkit-clip-path:polygon(285px 122px, 350px 272px, 350px 272px, 350px 272px, 348px 271px, 284px 122px)}
+    100%{-webkit-clip-path:polygon(285px 122px, 350px 272px, 242px 302px, 242px 301px, 348px 271px, 284px 122px)}
+}
+@keyframes starLineLibra2{
+    0%{-webkit-clip-path:polygon(285px 122px,285px 122px,285px 122px,285px 122px,285px 122px, 284px 124px)}
+    33.3%{-webkit-clip-path:polygon(285px 122px,285px 122px,285px 122px,285px 122px,285px 122px, 284px 124px)}
+    66.6%{-webkit-clip-path:polygon(285px 122px, 177px 188px, 177px 188px, 177px 188px, 179px 188px, 284px 124px)}
+    100%{-webkit-clip-path:polygon(285px 122px, 177px 188px, 242px 303px, 243px 303px, 179px 188px, 284px 124px)}
+}
+@keyframes starLineLibra3{
+    0%{-webkit-clip-path:polygon(348px 273px,348px 273px,348px 273px, 351px 272px)}
+    66.6%{-webkit-clip-path:polygon(348px 273px,348px 273px,348px 273px, 351px 272px)}
+    100%{-webkit-clip-path:polygon(348px 273px, 240px 405px, 241px 406px, 351px 272px)}
+}
+@keyframes starLineLibra4{
+    0%{-webkit-clip-path:polygon(179px 188px,179px 188px,179px 188px,179px 188px,179px 188px, 178px 187px)}
+    66.6%{-webkit-clip-path:polygon(179px 188px,179px 188px,179px 188px,179px 188px,179px 188px, 178px 187px)}
+   77.7%{-webkit-clip-path:polygon(179px 188px, 138px 192px, 138px 192px, 138px 192px, 140px 191px, 178px 187px)}
+    100%{-webkit-clip-path:polygon(179px 188px, 138px 192px, 92px 197px, 92px 196px, 140px 191px, 178px 187px)}
+}
+
+/*//ÌìÐ«×ù*/
+
+@keyframes starLineScorpius1 {
+    0%{-webkit-clip-path:polygon(454px 120px,454px 120px,454px 120px,454px 120px,454px 120px,454px 120px,454px 120px, 452px 120px)}
+    33.3%{-webkit-clip-path:polygon(454px 120px,454px 120px,454px 120px,454px 120px,454px 120px,454px 120px,454px 120px, 452px 120px)}
+    56%{-webkit-clip-path:polygon(454px 120px, 453px 166px, 453px 166px, 453px 166px, 453px 166px, 453px 166px, 451px 166px, 452px 120px)}
+    79%{-webkit-clip-path:polygon(454px 120px, 453px 166px, 432px 226px, 432px 226px, 432px 226px, 432px 221px, 451px 166px, 452px 120px)}
+    100%{-webkit-clip-path:polygon(454px 120px, 453px 166px, 432px 226px, 419px 263px, 418px 261px, 432px 221px, 451px 166px, 452px 120px)}
+}
+@keyframes starLineScorpius2 {
+    0%{-webkit-clip-path:polygon(453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px, 452px 167px)}
+    30%{-webkit-clip-path:polygon(453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px,453px 169px, 452px 167px)}
+    36%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 365px 181px, 364px 179px, 452px 167px)}
+    42%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 184px, 338px 182px, 364px 179px, 452px 167px)}
+    48%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 200px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    54%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 234px 270px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    60%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 211px 317px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    66%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 182px 379px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    72%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 377px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    78%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 62px 368px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    84%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 41px 309px, 41px 309px, 41px 309px, 41px 309px, 41px 309px, 41px 309px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    90%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 61px 295px, 61px 295px, 61px 295px, 61px 295px, 61px 295px, 63px 295px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    96%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 61px 295px, 91px 274px, 91px 274px, 91px 274px, 96px 273px, 63px 295px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+    100%{-webkit-clip-path:polygon(453px 169px, 365px 181px, 338px 184px, 305px 200px, 234px 270px, 211px 317px, 182px 379px, 130px 377px, 62px 368px, 41px 309px, 61px 295px, 91px 274px, 43px 262px, 42px 261px, 96px 273px, 63px 295px, 43px 310px, 64px 366px, 130px 375px, 181px 377px, 210px 317px, 232px 270px, 305px 198px, 338px 182px, 364px 179px, 452px 167px)}
+}
+
+/*//Ìì³Ó×ù*/
+@keyframes starLineSagittarius1{
+    0%{-webkit-clip-path:polygon(151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px, 151px 69px)}
+    27%{-webkit-clip-path:polygon(151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px,151px 67px, 151px 69px)}
+    36%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 202px 108px, 201px 109px, 151px 69px)}
+    45%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 223px 118px, 222px 119px, 201px 109px, 151px 69px)}
+    54%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 264px 179px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+    63%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 206px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+    72%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 61px 218px, 61px 218px, 61px 218px, 61px 218px, 61px 218px, 61px 218px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+    81%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 60px 232px, 60px 232px, 60px 232px, 60px 232px, 60px 232px, 59px 231px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+    90%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 60px 232px, 81px 343px, 81px 343px, 81px 343px, 80px 343px, 59px 231px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+    100%{-webkit-clip-path:polygon(151px 67px, 202px 108px, 223px 118px, 264px 179px, 227px 206px, 61px 218px, 60px 232px, 81px 343px, 126px 412px, 125px 412px, 80px 343px, 59px 231px, 60px 217px, 227px 205px, 262px 178px, 222px 119px, 201px 109px, 151px 69px)}
+}
+@keyframes starLineSagittarius2{
+    0%{-webkit-clip-path:polygon(263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px, 262px 180px)}
+    54.5%{-webkit-clip-path:polygon(263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px,263px 179px, 262px 180px)}
+    63.5%{-webkit-clip-path:polygon(263px 179px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 184px, 294px 186px, 262px 180px)}
+    72.5%{-webkit-clip-path:polygon(263px 179px, 294px 184px, 353px 156px, 353px 156px, 353px 156px, 353px 156px, 353px 156px, 353px 156px, 353px 156px, 352px 158px, 294px 186px, 262px 180px)}
+    81.5%{-webkit-clip-path:polygon(263px 179px, 294px 184px, 353px 156px, 381px 224px, 381px 224px, 381px 224px, 381px 224px, 381px 224px, 380px 224px, 352px 158px, 294px 186px, 262px 180px)}
+    90.5%{-webkit-clip-path:polygon(263px 179px, 294px 184px, 353px 156px, 381px 224px, 375px 290px, 375px 290px, 375px 290px, 374px 290px, 380px 224px, 352px 158px, 294px 186px, 262px 180px)}
+    100%{-webkit-clip-path:polygon(263px 179px, 294px 184px, 353px 156px, 381px 224px, 375px 290px, 398px 325px, 396px 324px, 374px 290px, 380px 224px, 352px 158px, 294px 186px, 262px 180px)}
+}
+@keyframes starLineSagittarius3{
+    0%{-webkit-clip-path:polygon(222px 120px,222px 120px,222px 120px, 221px 119px)}
+    83%{-webkit-clip-path:polygon(222px 120px,222px 120px,222px 120px, 221px 119px)}
+    100%{-webkit-clip-path:polygon(222px 120px, 244px 105px, 244px 104px, 221px 119px)}
+}
+@keyframes starLineSagittarius4{
+    0%{-webkit-clip-path:polygon(354px 160px,354px 160px,354px 160px, 353px 157px)}
+    89%{-webkit-clip-path:polygon(354px 160px,354px 160px,354px 160px, 353px 157px)}
+    100%{-webkit-clip-path:polygon(354px 160px, 399px 88px, 397px 88px, 353px 157px)}
+}
+@keyframes starLineSagittarius5{
+    0%{-webkit-clip-path:polygon(377px 222px,377px 222px,377px 222px, 378px 220px)}
+    90%{-webkit-clip-path:polygon(377px 222px,377px 222px,377px 222px, 378px 220px)}
+    100%{-webkit-clip-path:polygon(377px 222px, 429px 228px, 429px 227px, 378px 220px)}
+}
+@keyframes starLineSagittarius6{
+    0%{-webkit-clip-path:polygon(229px 206px,229px 206px,229px 206px,229px 206px,229px 206px, 226px 204px)}
+    78%{-webkit-clip-path:polygon(229px 206px,229px 206px,229px 206px,229px 206px,229px 206px, 226px 204px)}
+    89%{-webkit-clip-path:polygon(229px 206px, 247px 236px, 247px 236px, 247px 236px, 246px 236px, 226px 204px)}
+    100%{-webkit-clip-path:polygon(229px 206px, 247px 236px, 210px 402px, 209px 403px, 246px 236px, 226px 204px)}
+}
+
+
+/*Ä¦ôÉ×ù*/
+@keyframes starLineCapricornus1{
+    0%{-webkit-clip-path:polygon(483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px, 481px 122px)}
+    20%{-webkit-clip-path:polygon(483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px,483px 121px, 481px 122px)}
+    26.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 165px, 459px 164px, 481px 122px)}
+    33%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 237px 186px, 236px 185px, 459px 164px, 481px 122px)}
+    39.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 172px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    46%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 162px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    52.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 39px 150px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    59%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 218px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    65.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 132px 280px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    72%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 338px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    78.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 283px 384px, 283px 384px, 283px 384px, 283px 384px, 283px 384px, 283px 384px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    85%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 311px 355px, 311px 355px, 311px 355px, 311px 355px, 311px 355px, 311px 353px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    91.5%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 311px 355px, 418px 227px, 418px 227px, 418px 227px,416px 228px, 311px 353px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+    100%{-webkit-clip-path:polygon(483px 121px, 459px 165px, 237px 186px, 159px 172px, 73px 162px, 39px 150px, 86px 218px, 132px 280px, 217px 338px, 283px 384px, 311px 355px, 418px 227px,460px 164px,460px 162px,416px 228px, 311px 353px, 283px 383px, 217px 337px, 134px 280px, 86px 216px, 40px 149px, 73px 161px, 159px 171px, 236px 185px, 459px 164px, 481px 122px)}
+}
+
+/*//±¦Æ¿×ù*/
+@keyframes starLineAquarius1{
+    0%{-webkit-clip-path:polygon(260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px, 259px 52px)}
+    21%{-webkit-clip-path:polygon(260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px,260px 53px, 259px 52px)}
+    28%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 69px, 247px 67px, 259px 52px)}
+    35%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 227px 64px, 226px 63px, 247px 67px, 259px 52px)}
+    42%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 105px 105px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    49%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px, 8px 183px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    56%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px,41px 257px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    63%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 90px 367px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    70%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 83px 302px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    77%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 84px 273px, 84px 273px, 84px 273px, 84px 273px, 84px 273px, 84px 273px, 84px 273px, 85px 273px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    82%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 84px 273px, 136px 222px, 136px 222px, 136px 222px, 136px 222px, 136px 222px, 137px 223px, 85px 273px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    89%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 84px 273px, 136px 222px, 161px 135px, 161px 135px, 161px 135px, 162px 136px, 137px 223px, 85px 273px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+    100%{-webkit-clip-path:polygon(260px 53px, 247px 69px, 227px 64px, 105px 105px, 8px 183px,41px 257px, 90px 367px, 83px 302px, 84px 273px, 136px 222px, 161px 135px, 248px 67px, 248px 69px, 162px 136px, 137px 223px, 85px 273px, 84px 301px, 93px 377px, 40px 257px,7px 183px, 104px 104px, 226px 63px, 247px 67px, 259px 52px)}
+}
+@keyframes starLineAquarius2{
+    0%{-webkit-clip-path:polygon(248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px, 246px 67px)}
+    44.4%{-webkit-clip-path:polygon(248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px,248px 67px, 246px 67px)}
+    55.5%{-webkit-clip-path:polygon(248px 67px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 264px 87px, 263px 89px, 246px 67px)}
+    66.6%{-webkit-clip-path:polygon(248px 67px, 264px 87px, 313px 90px, 313px 90px, 313px 90px, 313px 90px, 313px 90px, 313px 90px, 313px 90px, 312px 92px, 263px 89px, 246px 67px)}
+    77.7%{-webkit-clip-path:polygon(248px 67px, 264px 87px, 313px 90px, 386px 175px, 386px 175px, 386px 175px, 386px 175px, 386px 175px, 386px 178px, 312px 92px, 263px 89px, 246px 67px)}
+    88.8%{-webkit-clip-path:polygon(248px 67px, 264px 87px, 313px 90px, 386px 175px, 480px 244px, 480px 244px, 480px 244px, 478px 244px, 386px 178px, 312px 92px, 263px 89px, 246px 67px)}
+    100%{-webkit-clip-path:polygon(248px 67px, 264px 87px, 313px 90px, 386px 175px, 480px 244px, 491px 254px, 489px 254px, 478px 244px, 386px 178px, 312px 92px, 263px 89px, 246px 67px)}
+}
+@keyframes starLineAquarius3{
+    0%{-webkit-clip-path:polygon(312px 92px,312px 92px,312px 92px,312px 92px,312px 92px, 311px 90px)}
+    75%{-webkit-clip-path:polygon(312px 92px,312px 92px,312px 92px,312px 92px,312px 92px, 311px 90px)}
+    87.5%{-webkit-clip-path:polygon(312px 92px, 277px 160px, 277px 160px, 277px 160px, 275px 160px, 311px 90px)}
+    100%{-webkit-clip-path:polygon(312px 92px, 277px 160px, 268px 236px, 267px 234px, 275px 160px, 311px 90px)}
+}
+
+/*//Ë«Óã×ù*/
+@keyframes starLinePisces1{
+    0%{-webkit-clip-path:polygon(345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px, 346px 274px)}
+    15%{-webkit-clip-path:polygon(345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px,345px 275px, 346px 274px)}
+    20%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 327px, 402px 325px, 346px 274px)}
+    25%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 448px 328px, 447px 327px, 402px 325px, 346px 274px)}
+    30%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 301px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    35%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 270px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    40%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 283px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    45%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 276px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    50%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 284px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    55%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 284px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    60%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 290px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    65%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 309px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    70%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 318px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    75%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 18px 353px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    80%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 277px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    84%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 92px 209px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    88%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 140px 144px, 140px 144px, 140px 144px, 140px 144px, 140px 144px, 140px 144px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    92%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 130px 105px, 130px 105px, 130px 105px, 130px 105px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    96%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 113px 76px, 113px 76px, 113px 76px, 114px 76px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+    100%{-webkit-clip-path:polygon(345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 113px 76px, 131px 41px, 132px 41px, 114px 76px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px)}
+}

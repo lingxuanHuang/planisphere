@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>constellation-coming</title>
+ </head>
+ <body>
+ 	<script>
+ 	//倒计坐标
+ 	var str="345px 274px,401px 324px,446px 326px,473px 299px,434px 268px,401px 281px,345px 274px,211px 282px,173px 282px,145px 288px,102px 307px,72px 316px,17px 350px, 59px 277px,92px 208px,139px 143px,130px 104px,113px 75px,130px 40px";
+ 	var strArray=str.split(',');
+ 	var strs="";
+ 	for(var i=strArray.length-1;i>=0; i--)
+ 		strs+=strArray[i]+",";
+ 	document.write(strs+"<br/><br/>");
+
+//-webkit-clip-path:polygon各%比下的值
+	var strsub="345px 275px, 402px 327px, 448px 328px, 475px 301px, 435px 270px, 402px 283px, 345px 276px, 211px 284px, 173px 284px, 145px 290px, 102px 309px, 72px 318px, 18px 353px, 59px 277px, 92px 209px, 140px 144px, 130px 105px, 113px 76px, 131px 41px, 132px 41px, 114px 76px, 131px 104px, 141px 144px, 93px 210px, 59px 280px, 22px 349px, 72px 316px, 102px 307px, 145px 288px, 173px 282px, 211px 282px, 345px 274px, 402px 281px, 435px 268px, 475px 299px, 447px 327px, 402px 325px, 346px 274px";//输入数据
+
+ 	var strsubArray=strsub.split(',');//获取数组
+
+ 	console.log("strsubArray:"+strsubArray.toString())//查看数组数据
+
+ 	var coorNum=strsubArray.length/2;//获取坐标个数
+ 	console.log("coorNum "+coorNum)
+
+ 	var coor=new Array();
+ 	var coorIn=new Array();
+ 	var j,n,m,f;
+ 	for(j=0;j<coorNum;j++)
+ 	{
+ 		///每一个阶段的值
+ 		coor[j]="0%{-webkit-clip-path:polygon(";
+ 		//每一个阶段动态中的坐标值
+ 		for(n=0;n<=j;n++){
+ 		coorIn[n]=strsubArray[n];
+ 		f=coorNum*2-n-1; 
+ 		coorIn[f]=strsubArray[f];
+ 	}
+
+ 	    for(m=n;m<=strsubArray.length-n-1;m++)
+ 	    {
+ 	    	coorIn[m]=strsubArray[n-1];
+ 	    }
+
+ 	    coor[j]+=coorIn.join(',')+")}";
+
+ 	}
+	document.write(coor.join("<br/>"))
+ 	</script>
+ </body>
+</html>

@@ -1,0 +1,38 @@
+//满天星位置
+.starryMixn(@left:50%,@top:50%,@opacity:0.4){
+  position: absolute;
+  left:@left*1px;
+  top:@top*1px;
+  opacity: @opacity;
+}
+
+//星星大小
+.starSize(@width:3,@height:3){
+  width:@width*1px;
+  height:@height*1px;
+}
+
+//渐变
+.transition(@time)
+{
+  transition:all @time*1s;
+  -webkit-transition:all @time*1s;
+  -moz-transition:all @time*1s;
+  -o-transition:all @time*1s;
+}
+
+//阴影
+.box-shadow(@h:0,@v:0,@blur:3,@spread:1,@color:#FFF){
+  box-shadow: @h*1px @v*1px  @blur*1px @spread*1px @color;
+  -webkit-box-shadow: @h*1px @v*1px  @blur*1px @spread*1px @color;
+  -moz-box-shadow: @h*1px @v*1px  @blur*1px @spread*1px @color;
+  -o-box-shadow: @h*1px @v*1px  @blur*1px @spread*1px @color;
+}
+
+//活动时星星的动作
+.activeStar(@h:0,@v:0,@blur:3,@spread:1,@color:#FFF,@time:3){
+  .box-shadow(@h,@v,@blur,@spread,@color);
+  animation: star @time * 1s;
+  -webkit-animation:star @time* 1s; ;
+  -moz-animation:star @time* 1s; ;
+}
